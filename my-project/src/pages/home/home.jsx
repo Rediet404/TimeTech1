@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="font-inter mx-auto w-[90%]">
+      <div className="font-inter  mx-auto w-[90%]">
         <p className="text-center py-2 text-sm">Services</p>
         <p className="text-center pb-10 font-medium">Our expertise</p> 
         <div className="flex flex-wrap gap-4 sm:justify-evenly">

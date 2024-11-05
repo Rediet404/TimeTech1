@@ -3,7 +3,7 @@
 const Contact = () => {
   return (
     <>
-    <div className="flex  flex-col font-inter items-center mx-auto w-[90%]">
+    <div className="flex pt-14  flex-col font-inter items-center mx-auto w-[90%]">
         <div className="h-screen flex flex-col items-center">           
           <h1 className=" font-semibold text-3xl my-5">Let’s build something great together</h1>
           <p className="mb-8 ">Have a question, suggestion, or just want to chat?
