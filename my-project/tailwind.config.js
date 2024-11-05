@@ -6,6 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        moveFromLeft: {
+          '0%': { transform: 'translateX(-800px)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+      },
+      animation: {
+        moveFromLeft: 'moveFromLeft 1s ease-out', // adjust duration and easing as needed
+      },
       colors:{
         'home1': '#776DF2',
         'prim':'#fff',

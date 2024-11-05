@@ -4,7 +4,7 @@ import Navbar from './navbar';
 
 const Layout = () => {
   return (
-    <sectio style={{fontFamily:"QuickSand"}}>
+    <sectio className="overflow-x-hidden" style={{fontFamily:"QuickSand"}}>
       <nav >
         <Navbar />
       </nav>

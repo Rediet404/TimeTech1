@@ -10,10 +10,10 @@ const Service = () => {
 
   return (
     <section className="overflow-hidden">
-       <div className="flex justify-around h-1/4">
+       <div className="flex justify-around h-1/4 items-center">
             <img className="w-72 h-68" src="src/assets/User interface in web design.png" alt="decorative image" />
-            <h1>Combine Creativity & Technical Expertise,
-            We Work For Your Business To Earn The Best
+            <h1 className="font-semibold sm:text-2xl  animate-moveFromLeft" >Combine Creativity & Technical Expertise, <br />
+            We Work For Your Business To Earn The Best <br />
             Outcomes
             </h1>
             <img className="mx-0" src="src/assets/Network security, firewall and online safety.png" alt="decorative image" />
@@ -25,14 +25,14 @@ const Service = () => {
 
           </div>
 
-            <div className="flex justify-evenly">
-            <div className="w-72 max-w-sm rounded-lg overflow-hidden shadow-lg"  >
+            <div className="flex justify-evenly flex-wrap">
+            <div className="w-80 h-fit pb-6 max-w-sm rounded-lg overflow-hidden shadow-lg"  >
               <img src="src/assets/DevOps, software development methodology and framework (1).png" alt="decorative image" />
-            <div className="px-6 py-4">
+            <div className="px-6 pt-4">
               <div className="font-semibold ml-4 text-xl mb-2 ">Software Development</div>
-              <div className="text-xs  font-medium my-10 ml-4">
-                <p>Time Software offers technical consultancy services to both <br />
-                  local and international organizations. With extensive <br /> </p>
+              <div className="text-xs  font-medium my-6 ml-4">
+                <p>Time Software offers technical consultancy services to both 
+                  local and international organizations. With extensive </p>
                   {isDescriptionVisible && (
                 <p> experience in all categories of services we deliver and offer <br />
                   our clients a holistic approach.</p>
@@ -49,13 +49,13 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="w-72 max-w-sm rounded-lg overflow-hidden shadow-lg"  >
+          <div className="w-80 h-fit pb-6 max-w-sm rounded-lg overflow-hidden shadow-lg"  >
              <img src="src/assets/Uploading files from computer to cloud (1).png" alt="decorative image" />
-            <div className="px-6 py-4">
+            <div className="px-6 pt-4">
               <div className="font-semibold ml-4 text-xl mb-2 ">System Installation</div>
-              <div className="text-xs  font-medium my-10 ml-4">
-                <p>Time Software offers technical consultancy services to both <br />
-                  local and international organizations. With extensive <br /> </p>
+              <div className="text-xs  font-medium my-6 ml-4">
+                <p>Time Software offers technical consultancy services to both 
+                  local and international organizations. With extensive  </p>
                   {isDescriptionVisible && (
                 <p> experience in all categories of services we deliver and offer <br />
                   our clients a holistic approach.</p>
@@ -71,13 +71,13 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="w-72 max-w-sm rounded-lg overflow-hidden shadow-lg" >
+          <div className="w-80 h-fit pb-6 max-w-sm rounded-lg overflow-hidden shadow-lg" >
             <img src="src/assets/Internet service provision and connectivity.png" alt="decorative image" />
-            <div className="px-6 py-4">
+            <div className="px-6 pt-4">
               <div className="font-semibold ml-4 text-xl mb-2 ">Network Design <br /> and Development</div>
-              <div className="text-xs  font-medium my-10 ml-4">
-                <p>Time Software offers technical consultancy services to both <br />
-                  local and international organizations. With extensive <br /> </p>
+              <div className="text-xs  font-medium my-3 ml-4">
+                <p>Time Software offers technical consultancy services to both 
+                  local and international organizations. With extensive  </p>
                   {isDescriptionVisible && (
                 <p> experience in all categories of services we deliver and offer <br />
                   our clients a holistic approach.</p>
@@ -94,14 +94,14 @@ const Service = () => {
           </div>
             </div>
 
-            <div className="flex justify-evenly">
-            <div className="w-72 max-w-sm rounded-lg overflow-hidden shadow-lg" >
+            <div className="flex justify-evenly flex-wrap">
+            <div className="w-80 h-fit pb-6 max-w-sm rounded-lg overflow-hidden shadow-lg" >
               <img src="src/assets/Branding kit, corporate identity development.png" alt="decorative image" />
-            <div className="px-6 py-4">
+            <div className="px-6 pt-4">
               <div className="font-semibold ml-4 text-xl mb-2 ">Corporate Business</div>
-              <div className="text-xs  font-medium my-10 ml-4">
-                <p>Time Software offers technical consultancy services to both <br />
-                  local and international organizations. With extensive <br /> </p>
+              <div className="text-xs  font-medium my-6 ml-4">
+                <p>Time Software offers technical consultancy services to both 
+                  local and international organizations. With extensive  </p>
                   {isDescriptionVisible && (
                 <p> experience in all categories of services we deliver and offer <br />
                   our clients a holistic approach.</p>
@@ -117,13 +117,13 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="w-72 max-w-sm rounded-lg overflow-hidden shadow-lg" >
+          <div className="w-80 h-fit pb-6 max-w-sm rounded-lg overflow-hidden shadow-lg" >
             <img src="src/assets/OTP verification.png" alt="decorative image" />
-            <div className="px-6 py-4">
+            <div className="px-6 pt-4">
               <div className="font-semibold ml-4 text-xl mb-2 ">SMS Service</div>
-              <div className="text-xs  font-medium my-10 ml-4">
-                <p>Time Software offers technical consultancy services to both <br />
-                  local and international organizations. With extensive <br /> </p>
+              <div className="text-xs  font-medium my-6 ml-4">
+                <p>Time Software offers technical consultancy services to both 
+                  local and international organizations. With extensive </p>
                   {isDescriptionVisible && (
                 <p> experience in all categories of services we deliver and offer <br />
                   our clients a holistic approach.</p>
@@ -139,13 +139,13 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="w-72  max-w-sm rounded-lg overflow-hidden shadow-lg"  >
+          <div className="w-80 h-fit pb-6 max-w-sm rounded-lg overflow-hidden shadow-lg"  >
             <img src="src/assets/Risk management and controlling threats.png" alt="decorative image" />
-            <div className="px-6 py-4">
+            <div className="px-6 pt-4">
               <div className="font-semibold ml-4 text-xl mb-2 ">Tech Assisted <br /> Property Management</div>
-              <div className="text-xs  font-medium my-10 ml-4">
-                <p>Time Software offers technical consultancy services to both <br />
-                  local and international organizations. With extensive <br /> </p>
+              <div className="text-xs  font-medium my-3 ml-4">
+                <p>Time Software offers technical consultancy services to both 
+                  local and international organizations. With extensive  </p>
                   {isDescriptionVisible && (
                 <p> experience in all categories of services we deliver and offer <br />
                   our clients a holistic approach.</p>
@@ -164,10 +164,10 @@ const Service = () => {
         </div>
         <div>
         <div className="text-center py-14">
-          <h1 className="font-semibold text-lg py-4">Sectors We Have Explored</h1>
+          <h1 className="font-semibold sm:text-lg py-4">Sectors We Have Explored</h1>
           <p>We are proficient in delivering software solutions to companies of different business verticals. Our background covers such industries as:</p>
         </div>
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly flex-wrap gap-4">
         <button className="border-2 border-gray-50 w-52 rounded-lg h-10 flex justify-evenly items-center">
           <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M24.9997 6.25L2.08301 18.75L10.4163 23.2917V35.7917L24.9997 43.75L39.583 35.7917V23.2917L43.7497 21.0208V35.4167H47.9163V18.75L24.9997 6.25ZM39.208 18.75L24.9997 26.5L10.7913 18.75L24.9997 11L39.208 18.75ZM35.4163 33.3333L24.9997 39L14.583 33.3333V25.5625L24.9997 31.25L35.4163 25.5625V33.3333Z" fill="#5D328F"/>
@@ -186,7 +186,7 @@ const Service = () => {
 
         </div>
 
-        <h1 className="font-semibold text-2xl text-center py-14">Partners & Clients</h1>
+        <h1 className="font-semibold sm:text-2xl text-center py-14">Partners & Clients</h1>
         </div>
       <Info_card />
     </section>

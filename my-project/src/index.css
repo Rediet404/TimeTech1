@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: "QuickSand";
+    src: url("./assets/fonts/Quicksand/") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Inter";
+    src: url("../assets/fonts/Quicksand/Inter") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  } 
+ 

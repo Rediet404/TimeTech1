@@ -2,13 +2,13 @@ import { Info_card } from "../compononets/info_card";
 const About = () => {
   return (
     <section className=" overflow-hidden"  >
-    <div className="flex justify-evenly h-2/5 absolute w-full font-inter items-start" style={{background: "#776DF2"}}>
+    <div className="flex justify-evenly sm:h-2/5 h-3/5 absolute w-full font-inter items-start" style={{background: "#776DF2"}}>
     <p className="text-white font-inter font-normal text-3xl ml-5 mt-14">Your Trusted <br /> Technology Partner</p>
     <img className="w-80"  src="src\assets/industry.png" alt="decorative image" />
     <img className=" h-52" src="src/assets/settings.png" alt="decorative image" />
     <img className="w-72" src="src/assets/strategy.png" alt="decorative image" />
     </div>
-    <div className="flex justify-around flex-wrap p-4 rounded-md  ">
+    <div className="flex sm:justify-around flex-wrap p-4 rounded-md  ">
     <div className="w-80 h-36 relative mt-48  bg-white bg-opacity-100 z-20  flex  max-w-sm rounded-xl overflow-hidden shadow-lg">
             <div className="bg-purple-50 rounded-full w-14 h-14 p-2 m-5 flex basis-10 justify-center items-center">
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,7 +23,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="relative mt-48 bg-white bg-opacity-100 z-20  w-80 h-36 flex  max-w-sm rounded-xl overflow-hidden shadow-lg">
+          <div className="relative sm:mt-48 mt-4 bg-white bg-opacity-100 z-20  w-80 h-36 flex  max-w-sm rounded-xl overflow-hidden shadow-lg">
             <div className="bg-yellow-50 rounded-full w-14 h-14 p-2 m-3 flex basis-10 justify-center items-center">
               <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_296_463)">
@@ -44,7 +44,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="relative mt-48 bg-white bg-opacity-100 z-20  w-80 h-36 flex  max-w-sm rounded-xl overflow-hidden shadow-lg">
+          <div className="relative sm:mt-48 mt-4 bg-white bg-opacity-100 z-20  w-80 h-36 flex  max-w-sm rounded-xl overflow-hidden shadow-lg">
             <div className="bg-green-50 rounded-full w-14 h-14 p-2 m-3 flex basis-10 justify-center items-center">
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M17.1874 37.5H32.8124V40.625H17.1874V37.5ZM20.3124 43.75H29.6874V46.875H20.3124V43.75ZM24.9999 3.125C20.8559 3.125 16.8816 4.7712 13.9514 7.70146C11.0211 10.6317 9.3749 14.606 9.3749 18.75C9.26923 21.0208 9.70423 23.2843 10.6441 25.3542C11.584 27.4241 13.0019 29.2413 14.7811 30.6563C16.3436 32.1094 17.1874 32.9375 17.1874 34.375H20.3124C20.3124 31.5 18.578 29.8906 16.8905 28.3438C15.4301 27.2254 14.2663 25.7661 13.5008 24.0935C12.7353 22.4209 12.3917 20.5862 12.4999 18.75C12.4999 15.4348 13.8169 12.2554 16.1611 9.91117C18.5053 7.56696 21.6847 6.25 24.9999 6.25C28.3151 6.25 31.4945 7.56696 33.8387 9.91117C36.1829 12.2554 37.4999 15.4348 37.4999 18.75C37.6063 20.5876 37.2602 22.4232 36.492 24.0958C35.7238 25.7685 34.5569 27.2271 33.0936 28.3438C31.4218 29.9062 29.6874 31.4688 29.6874 34.375H32.8124C32.8124 32.9375 33.6405 32.1094 35.2186 30.6406C36.9967 29.2281 38.4139 27.4136 39.3538 25.3464C40.2937 23.2792 40.7293 21.0184 40.6249 18.75C40.6249 16.6981 40.2207 14.6663 39.4355 12.7706C38.6503 10.8749 37.4994 9.15237 36.0484 7.70146C34.5975 6.25054 32.875 5.09961 30.9793 4.31438C29.0836 3.52915 27.0518 3.125 24.9999 3.125Z" fill="#48DBC2"/>
@@ -131,20 +131,20 @@ const About = () => {
       </div>
     
 
-    <div className="flex justify-evenly items-center bg-gray-50 h-24">
-      <div >
+    <div className="flex justify-evenly items-center flex-wrap bg-gray-50 h-fit">
+      <div className="py-3" >
       <h1 className="font-medium text-3xl">10+</h1>
       <p>Clients & Partnerships</p>
       </div>
-      <div>
+      <div className="py-2">
         <h1 className="font-medium text-3xl">100%</h1>
         <p>Succession Rate</p>
       </div>
-      <div>
+      <div className="py-2">
         <h1 className="font-medium text-3xl">20+</h1>
         <p>Years of Experience</p>
       </div>
-      <div>
+      <div className="py-3">
         <h1 className="font-medium text-3xl">24/7</h1>
         <p>Customer Support</p>
       </div>

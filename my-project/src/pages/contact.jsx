@@ -8,22 +8,24 @@ const Contact = () => {
           <h1 className=" font-semibold text-3xl my-5">Let’s build something great together</h1>
           <p className="mb-8 ">Have a question, suggestion, or just want to chat?
             We&apos;d love to hear from you. Feel free to reach out to us!</p>
-        <div className="rounded-md bg-gray-50 w-11/12 h-3/4 flex flex-col justify-around items-center ">
+            <div className="rounded-md bg-[#F8F8F8]  sm:w-[80%] w-[100%] h-fit py-10">
+             <form action="" className="w-full h-full flex flex-col justify-around gap-6 items-center">
             <h1 className="font-semibold text-2xl my-4 text-center">Let&apos;s get in touch.</h1>
-            <div className="flex gap-14 w-full justify-center">
-                <input className="bg-white rounded-lg w-2/6  h-10 p-4 border-2 border-gray-100" type="text" placeholder="first name*" />
-                <input className="bg-white rounded-lg w-2/6 h-10 p-4 border-2 border-gray-100" type="text" placeholder="last name*" />
+            <div className="flex sm:flex-row flex-col sm:gap-14 gap-4 w-full justify-center items-center">
+                <input className="bg-white rounded-lg sm:w-2/6 w-[75%]  h-10 p-4 border-2 border-gray-100" type="text" placeholder="first name*" />
+                <input className="bg-white rounded-lg sm:w-2/6 w-[75%] h-10 p-4 border-2 border-gray-100" type="text" placeholder="last name*" />
             </div>
             <input className="bg-white rounded-lg w-9/12 h-10 p-4 border-2 border-gray-100" type="email" placeholder="email*" />
             <input className="bg-white rounded-lg w-9/12 h-10 p-4 border-2 border-gray-100" type="text" placeholder="subject*" />
             <textarea className="bg-white rounded-lg  w-9/12 p-3 border-2 border-gray-100" type="text" placeholder="your message*" />
             <button className="bg-black rounded-xl text-white w-36 h-9">send</button>
+            </form>
         </div>
         </div>
    
     <div className="flex flex-wrap items-center flex-col">
-    <img className="w-72 h-72" src="src/assets/Logo.white.png" alt="logo" />
-    <div className="flex justify-around  items-start gap-4 m-5">
+    <img className="sm:w-72 sm:h-72 w-28" src="src/assets/Logo.white.png" alt="logo" />
+    <div className="flex justify-around flex-wrap  items-start gap-4 m-5">
     <div>
     <div className="flex items-start gap-4 p-2 ">
         <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +44,7 @@ const Contact = () => {
             <p>timetechnologiesplc1@gmail.com</p>
         </div> 
         <div className="flex items-start gap-4 p-2">
-        <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="sm:w-7 sm:h-7 w-0 h-0"  viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M25.0003 23.9582C23.619 23.9582 22.2942 23.4094 21.3175 22.4327C20.3407 21.4559 19.792 20.1312 19.792 18.7498C19.792 17.3685 20.3407 16.0437 21.3175 15.067C22.2942 14.0902 23.619 13.5415 25.0003 13.5415C26.3817 13.5415 27.7064 14.0902 28.6832 15.067C29.6599 16.0437 30.2087 17.3685 30.2087 18.7498C30.2087 19.4338 30.0739 20.1111 29.8122 20.743C29.5505 21.3749 29.1668 21.949 28.6832 22.4327C28.1995 22.9163 27.6254 23.3 26.9935 23.5617C26.3616 23.8235 25.6843 23.9582 25.0003 23.9582ZM25.0003 4.1665C21.1326 4.1665 17.4233 5.70296 14.6884 8.43786C11.9534 11.1728 10.417 14.8821 10.417 18.7498C10.417 29.6873 25.0003 45.8332 25.0003 45.8332C25.0003 45.8332 39.5837 29.6873 39.5837 18.7498C39.5837 14.8821 38.0472 11.1728 35.3123 8.43786C32.5774 5.70296 28.8681 4.1665 25.0003 4.1665Z" fill="black"/>
         </svg>
         <p>Meskel Flower (on the road to Dembel) <br />
