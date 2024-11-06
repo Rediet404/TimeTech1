@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section className=" overflow-hidden py-14"  >
-    <div className="flex justify-evenly sm:h-2/5 h-3/5 absolute w-full font-inter items-start" style={{background: "#776DF2"}}>
+    <div className="flex overflow-hidden justify-evenly sm:h-2/5 h-3/5 absolute w-full font-inter items-start" style={{background: "#776DF2"}}>
     <p className="text-white font-inter font-normal text-3xl ml-5 mt-14">Your Trusted <br /> Technology Partner</p>
     <img className="w-80"  src="src\assets/industry.png" alt="decorative image" />
     <img className=" h-52" src="src/assets/settings.png" alt="decorative image" />
