@@ -9,11 +9,12 @@ const Service = () => {
   };
 
   return (
-    <section className="overflow-hidden py-20">
-       <div className="flex justify-around h-1/4 items-center">
-            <img className="w-72 h-68" src="src/assets/User interface in web design.png" alt="decorative image" />
-            <h1 className="font-semibold sm:text-4xl text-center animate-moveFromLeft" >Combine Creativity & Technical Expertise, <br />
-            We Work For Your Business To Earn <br/>The Best Outcomes
+    
+    <section className="overflow-hidden pt-20 ">
+       <div className="flex sm:justify-around justify-center   pt-10 h-1/4 items-center w-[90%] mx-auto">
+            <img className="w-48 sm:w-72 h-68" src="src/assets/User interface in web design.png" alt="decorative image" />
+            <h1 className="font-bold sm:text-4xl px-4 text-lg text-center animate-moveFromLeft" >Combine Creativity & Technical Expertise, 
+            We Work For Your Business To Earn <br />The Best Outcomes
             </h1>
             <img className="mx-0" src="src/assets/Network security, firewall and online safety.png" alt="decorative image" />
         </div> 
