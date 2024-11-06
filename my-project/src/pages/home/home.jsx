@@ -1,7 +1,7 @@
 import  { useState } from "react";
 import { Link } from "react-router-dom"
-import { Info_card } from "../../compononets/info_card";
-
+import Hero from "../../compononets/Hero";
+import Workflow from "../../compononets/Workflow"
 const Home = () => {
   const [isOpen, setIsOpen] = useState(null);
 
@@ -10,10 +10,12 @@ const Home = () => {
   };
 
   return (
-    <>
-      <div className="font-inter pt-14  mx-auto w-[90%]">
+    <section className="pt-14">
+      <Hero/>
+      <div className="flex items-center bg-[#f8f8f8] py-20">
+      <div className="font-inter mx-auto w-[90%]">
         <p className="text-center py-2 text-xs uppercase">Services</p>
-        <p className="text-center pb-10 font-medium text-2xl">Our expertise</p> 
+        <p className="text-center pb-10 font-semibold text-2xl">Our expertise</p> 
         <div className="flex flex-wrap gap-4 sm:justify-evenly">
           <div className="w-72 max-w-sm rounded-lg overflow-hidden shadow-lg bg-home1"  >
           <svg className="mt-10 ml-12" width="60" height="60" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,7 +23,7 @@ const Home = () => {
           </svg>
             <div className="px-6 py-4">
               <div className="font-semibold ml-4 text-xl mb-2 text-white">Software Development</div>
-              <div className="text-xs text-white font-medium my-10 ml-4">
+              <div className="text-xs text-white font-semibold my-10 ml-4">
                 <p>Web design and development</p>
                 <p className="py-2">Mobile app design and development</p>
                 <p>System and ERP software development </p>
@@ -35,7 +37,7 @@ const Home = () => {
           </svg>
             <div className="px-6 py-4 text-black">
               <div className="ml-4 font-semibold text-xl mb-2">System Installation</div>
-              <div className="text-xs font-medium my-10 ml-4">
+              <div className="text-xs font-semibold my-10 ml-4">
               <p >
                 Cloud services </p>
                <p className="py-2">Voice over internet protocol (VoIP) </p> 
@@ -59,7 +61,7 @@ const Home = () => {
           </svg>
             <div className="px-6 py-4">
               <div className="ml-4 font-semibold text-xl text-white mb-2">Network Design <br /> and Installation</div>
-              <div className="text-xs text-white font-medium my-6 ml-4">
+              <div className="text-xs text-white font-semibold my-6 ml-4">
                 <p>Cable Installation</p>
                 <p className="my-2">Device Installation</p>
                 <p>Testing</p>
@@ -71,8 +73,8 @@ const Home = () => {
         <p className="text-center text-sm py-10">
           <Link to='/service' className="underline">See more services</Link>
         </p>
-      </div>
-
+      </div></div>
+      <Workflow/>
       <div>
         
         <div className="flex justify-evenly flex-wrap py-5">
@@ -103,7 +105,7 @@ const Home = () => {
               className="flex justify-between p-4  cursor-pointer"
               onClick={() => toggleAccordion(2)}
             >
-              <h3 className="font-medium text-center">What services do you offer?</h3>
+              <h3 className="font-medium text-center">How long does it take to build an MVP?</h3>
               <span>{isOpen === 2 ? '-' : '+'}</span>
             </div>
             {isOpen === 2 && (
@@ -118,7 +120,7 @@ const Home = () => {
               className="flex justify-between p-4 cursor-pointer"
               onClick={() => toggleAccordion(3)}
             >
-              <h3 className="font-medium text-center">How long does it take to build an MVP?</h3>
+              <h3 className="font-medium text-center">How can I request a quote for your service?</h3>
               <span>{isOpen === 3 ? '-' : '+'}</span>
             </div>
             {isOpen === 3 && (
@@ -132,7 +134,7 @@ const Home = () => {
               className="flex justify-between p-4 cursor-pointer"
               onClick={() => toggleAccordion(4)}
             >
-              <h3 className="font-medium text-center">How can I request a quote for your service?</h3>
+              <h3 className="font-medium text-center">Accordion 4</h3>
               <span>{isOpen === 4 ? '-' : '+'}</span>
             </div>
             {isOpen === 4 && (
@@ -144,10 +146,9 @@ const Home = () => {
         </div>
         </div>
       </div>
-      <div className="m-5">    
-    <Info_card />
+      <div className="m-5">  
     </div>
-    </>
+    </section>
   );
 };
 

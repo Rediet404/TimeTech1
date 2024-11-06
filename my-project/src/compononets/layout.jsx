@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import Footer from './footer';
 import Navbar from './navbar';
+import { Info_card } from './info_card';
 
 const Layout = () => {
   return (
@@ -10,6 +11,7 @@ const Layout = () => {
       </nav>
 
       <Outlet />
+      <Info_card/>
       <Footer />
     </sectio>
   )

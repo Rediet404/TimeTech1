@@ -7,6 +7,7 @@ import About from "./pages/about.jsx";
 import Contact from "./pages/contact.jsx";
 import Service from "./pages/service.jsx";
 import './App.css'
+import Projects from "./pages/projects.jsx";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />}/>
           <Route path="/contact" element={<Contact />}/>
           <Route path="/service" element={<Service/>}/>
+          <Route path="/projects" element={<Projects/>}/>
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
