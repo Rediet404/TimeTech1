@@ -11,7 +11,7 @@ const Service = () => {
   return (
     
     <section className="overflow-hidden pt-20 ">
-       <div className="flex sm:justify-around justify-center flex-wrap-reverse pt-10 h-1/4 items-center w-[90%] mx-auto">
+       <div className="flex sm:justify-around justify-center   pt-10 h-1/4 items-center w-[90%] mx-auto">
             <img className="w-48 sm:w-72 h-68" src="src/assets/User interface in web design.png" alt="decorative image" />
             <h1 className="font-bold sm:text-4xl px-4 text-lg text-center animate-moveFromLeft" >Combine Creativity & Technical Expertise, 
             We Work For Your Business To Earn <br />The Best Outcomes

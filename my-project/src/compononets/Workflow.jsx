@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ConsultationIcon from '/icons/consultation.svg';
 import PlanningIcon from '/icons/planning.svg';
 import ExecutionIcon from '/icons/execution.svg';
@@ -78,33 +78,30 @@ function Workflow() {
 
       {/* Values */}
      {/* Values */}
-     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-10">
+     <div className="flex flex-wrap sm:justify-evenly gap-4">
         {/* Creativity */}
-        <div className="flex items-center bg-workflow1_bg p-8 rounded-lg shadow-md border-2 border-workflow1">
-          <img src={CreativityIcon} className="w-20 h-20 text-workflow1 mb-4 mx-auto" />
-          <div  class='flex flex-col gap-8 items-start'>
+        <div className="w-[330px] flex items-center gap-4 bg-workflow1_bg p-8 rounded-lg shadow-md border-2 border-workflow1">
+          <img src={CreativityIcon} className="w-16 h-16 text-workflow1 mb-4 mx-auto" />
+          <div  className='flex flex-col gap-8 items-start'>
             <h4 className="text-lg font-medium text-workflow1 mb-2">Creativity</h4>
-            <p className="text-workflow1 text-justify">We bring innovation to every
-            <br/> aspect of your business.</p>
+            <p className="text-workflow1 text-justify">We bring innovation to every aspect of your business.</p>
           </div>
         </div>
         {/* Credibility */}
-        <div className="flex items-center bg-workflow2_bg p-8 rounded-lg shadow-md border-2 border-workflow2">
-          <img src={CredibilityIcon} className="w-20 h-20 text-workflow2 mb-4 mx-auto" />
-          <div class='flex flex-col gap-8 items-start'>
+        <div className="w-[330px] flex items-center gap-4 bg-workflow2_bg p-8 rounded-lg shadow-md border-2 border-workflow2">
+          <img src={CredibilityIcon} className="w-16 h-16 text-workflow2 mb-4 mx-auto" />
+          <div className='flex flex-col gap-8 items-start'>
             <h4 className="text-lg font-medium text-workflow2 mb-2">Credibility</h4>
-            <p className="text-workflow2 text-justify">We deliver on our promise 
-            <br/>every time with guarantee.</p>
+            <p className="text-workflow2 text-justify">We deliver on our promise every time with guarantee.</p>
           </div>
         </div>
         {/* Curiosity */}
-        <div className="flex items-center bg-workflow3_bg p-8 rounded-lg shadow-md border-2 border-workflow3">
-          <img src={CuriosityIcon} className="w-20 h-20 text-teal-500  mb-4 mx-auto" />
+        <div className="w-[330px] flex items-center gap-4 bg-workflow3_bg p-8 rounded-lg shadow-md border-2 border-workflow3">
+          <img src={CuriosityIcon} className="w-16 h-16 text-teal-500  mb-4 mx-auto" />
           <div className='flex flex-col gap-8 items-start'>
             <h4 className="text-lg font-medium text-workflow3 mb-2 ">Curiosity</h4>
 
-            <p className="text-workflow3 text-justify">We stay ahead in the 
-              <br />ever-evolving tech space.</p>
+            <p className="text-workflow3 text-justify">We stay ahead in the ever-evolving tech space.</p>
 
 
           </div>
