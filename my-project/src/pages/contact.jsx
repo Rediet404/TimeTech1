@@ -5,12 +5,12 @@ const Contact = () => {
     <>
     <div className="flex pt-20  flex-col font-inter items-center mx-auto w-[90%]">
         <div className="h-screen flex flex-col items-center">           
-          <h1 className=" font-semibold text-3xl my-6">Let’s build something great together</h1>
+          <h1 className=" font-semibold text-3xl my-5">Let’s build something great together</h1>
           <p className="mb-8 ">Have a question, suggestion, or just want to chat?
             We&apos;d love to hear from you. Feel free to reach out to us!</p>
-            <div className="rounded-md bg-[#F8F8F8]  sm:w-[80%] w-[100%] :h-fit py-10">
+            <div className="rounded-md bg-[#F8F8F8]  sm:w-[80%] w-[100%] h-fit py-10">
              <form action="" className="w-full h-full flex flex-col justify-around gap-6 items-center">
-            <h1 className="font-bold text-2xl my-4 text-center">Let&apos;s get in touch.</h1>
+            <h1 className="font-semibold text-2xl my-4 text-center">Let&apos;s get in touch.</h1>
             <div className="flex sm:flex-row flex-col sm:gap-14 gap-4 w-full justify-center items-center">
                 <input className="bg-white rounded-lg sm:w-2/6 w-[75%]  h-10 p-4 border-2 border-gray-100" type="text" placeholder="first name*" />
                 <input className="bg-white rounded-lg sm:w-2/6 w-[75%] h-10 p-4 border-2 border-gray-100" type="text" placeholder="last name*" />
