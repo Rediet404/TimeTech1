@@ -4,11 +4,11 @@ const About = () => {
     <section className=" overflow-hidden py-14"  >
     <div className="flex justify-evenly sm:h-2/5 h-3/5 absolute w-full font-inter items-start" style={{background: "#776DF2"}}>
     <p className="text-white font-inter font-normal text-3xl ml-5 mt-14">Your Trusted <br /> Technology Partner</p>
-    <img className="w-80"  src="src\assets/industry.png" alt="decorative image" />
-    <img className=" h-52" src="src/assets/settings.png" alt="decorative image" />
-    <img className="w-72" src="src/assets/strategy.png" alt="decorative image" />
+    <img className="w-64 sm:w-80"  src="src\assets/industry.png" alt="decorative image" />
+    <img className="hidden sm:h-52" src="src/assets/settings.png" alt="decorative image" />
+    <img className="hidden sm:w-72" src="src/assets/strategy.png" alt="decorative image" />
     </div>
-    <div className="flex sm:justify-around flex-wrap p-4 rounded-md  ">
+    <div className="flex justify-center overflow-x-hidden sm:justify-around flex-wrap p-4 rounded-md  ">
     <div className="w-80 h-36 relative mt-48  bg-white bg-opacity-100 z-20  flex  max-w-sm rounded-xl overflow-hidden shadow-lg">
             <div className="bg-purple-50 rounded-full w-14 h-14 p-2 m-5 flex basis-10 justify-center items-center">
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <>
       <div className="font-inter pt-14  mx-auto w-[90%]">
-        <p className="text-center py-2 text-sm">Services</p>
-        <p className="text-center pb-10 font-medium">Our expertise</p> 
+        <p className="text-center py-2 text-xs uppercase">Services</p>
+        <p className="text-center pb-10 font-medium text-2xl">Our expertise</p> 
         <div className="flex flex-wrap gap-4 sm:justify-evenly">
           <div className="w-72 max-w-sm rounded-lg overflow-hidden shadow-lg bg-home1"  >
           <svg className="mt-10 ml-12" width="60" height="60" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,7 +103,7 @@ const Home = () => {
               className="flex justify-between p-4  cursor-pointer"
               onClick={() => toggleAccordion(2)}
             >
-              <h3 className="font-medium text-center">How long does it take to build an MVP?</h3>
+              <h3 className="font-medium text-center">What services do you offer?</h3>
               <span>{isOpen === 2 ? '-' : '+'}</span>
             </div>
             {isOpen === 2 && (
@@ -118,7 +118,7 @@ const Home = () => {
               className="flex justify-between p-4 cursor-pointer"
               onClick={() => toggleAccordion(3)}
             >
-              <h3 className="font-medium text-center">How can I request a quote for your service?</h3>
+              <h3 className="font-medium text-center">How long does it take to build an MVP?</h3>
               <span>{isOpen === 3 ? '-' : '+'}</span>
             </div>
             {isOpen === 3 && (
@@ -132,7 +132,7 @@ const Home = () => {
               className="flex justify-between p-4 cursor-pointer"
               onClick={() => toggleAccordion(4)}
             >
-              <h3 className="font-medium text-center">Accordion 4</h3>
+              <h3 className="font-medium text-center">How can I request a quote for your service?</h3>
               <span>{isOpen === 4 ? '-' : '+'}</span>
             </div>
             {isOpen === 4 && (
