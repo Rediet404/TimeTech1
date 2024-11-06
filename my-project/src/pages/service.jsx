@@ -10,9 +10,9 @@ const Service = () => {
 
   return (
     <section className="overflow-hidden pt-20 ">
-       <div className="flex justify-around h-1/4 items-center w-[90%] mx-auto">
+       <div className="flex sm:justify-around justify-center flex-wrap-reverse pt-10 h-1/4 items-center w-[90%] mx-auto">
             <img className="w-48 sm:w-72 h-68" src="src/assets/User interface in web design.png" alt="decorative image" />
-            <h1 className="font-semibold sm:text-4xl px-4 text-lg text-center animate-moveFromLeft" >Combine Creativity & Technical Expertise, 
+            <h1 className="font-bold sm:text-4xl px-4 text-lg text-center animate-moveFromLeft" >Combine Creativity & Technical Expertise, 
             We Work For Your Business To Earn <br />The Best Outcomes
             </h1>
             <img className="sm:w-52 w-0 mx-0" src="src/assets/Network security, firewall and online safety (1).png" alt="decorative image" />
