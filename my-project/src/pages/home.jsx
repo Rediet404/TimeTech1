@@ -1,7 +1,7 @@
 import  { useState } from "react";
 import { Link } from "react-router-dom"
-import Hero from "../../compononets/Hero";
-import Workflow from "../../compononets/Workflow"
+import Hero from "../compononets/Hero";
+import Workflow from "../compononets/Workflow"
 const Home = () => {
   const [isOpen, setIsOpen] = useState(null);
 

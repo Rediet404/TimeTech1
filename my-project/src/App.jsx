@@ -1,7 +1,7 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./compononets/layout";
-import Home from "./pages/home/home.jsx";
+import Home from "./pages/home.jsx";
 import NoPage from "./compononets/nopage";
 import About from "./pages/about.jsx";
 import Contact from "./pages/contact.jsx";
