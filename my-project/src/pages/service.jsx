@@ -1,12 +1,15 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 
- 
 const Service = () => {
-  const [isDescriptionVisible, setIsDescriptionVisible] = useState(false);
-  const toggleDescription = () => {
-    setIsDescriptionVisible(!isDescriptionVisible);
-  };
+  const [isDescriptionVisible, setIsDescriptionVisible] = useState(
+    Array(6).fill(false)
+  );
 
+  const toggleDescription = (index) => {
+    setIsDescriptionVisible((prevState) => 
+      prevState.map((visible, i) => (i === index ? !visible : visible))
+    );
+  };
   return (
     <section className="overflow-hidden pt-20 ">
        <div className="flex justify-around h-1/4 items-center w-[90%] mx-auto">
@@ -22,140 +25,145 @@ const Service = () => {
             <p className="font-semibold text-2xl">What Can We Do</p>
 
           </div>
-
+          
             <div className="flex sm:justify-evenly justify-center gap-6 flex-wrap">
-            <div className="w-80 h-fit pb-6 bg-white max-w-sm rounded-xl overflow-hidden shadow-lg"  >
-              <img src="src/assets/DevOps, software development methodology and framework (1).png" alt="decorative image" />
-            <div className="px-6 pt-4 ">
-              <div className="font-semibold ml-4 text-xl mb-2 ">Software Development</div>
-              <div className="text-xs  font-medium my-6 ml-4">
-                <p>Time Software offers technical consultancy services to both 
-                  local and international organizations. With extensive </p>
-                  {isDescriptionVisible && (
-                <p> experience in all categories of services we deliver and offer <br />
-                  our clients a holistic approach.</p>
-                  )}
-                  
+            
+          {/* Card 1 */}
+          <div className="w-80 h-fit pb-6 bg-white max-w-sm rounded-xl overflow-hidden shadow-lg">
+            <img src="src/assets/DevOps, software development methodology and framework (1).png" alt="decorative image" />
+            <div className="px-6 pt-4">
+              <h1 className="font-semibold ml-4 text-xl mb-2">Software Development</h1>
+              <div className="text-xs font-medium my-6 ml-4">
+                <p>Time Software offers technical consultancy services to both local and international organizations. With extensive </p>
+                {isDescriptionVisible[0] && (
+                  <p>experience in all categories of services we deliver and offer our clients a holistic approach.</p>
+                )}
               </div>
               <div className="flex justify-center">
-              <button onClick={toggleDescription}
-                  className="font-medium text-sm" style={{color: '#5D328F'}}>
-                  {isDescriptionVisible ? 'Read Less' : 'Read More'}
-              </button>
-               </div> 
-              
+                <button
+                  onClick={() => toggleDescription(0)} 
+                  className="font-medium text-sm"
+                  style={{ color: '#5D328F' }}
+                >
+                  {isDescriptionVisible[0] ? 'Read Less' : 'Read More'}
+                </button>
+              </div>
             </div>
           </div>
-
+          {/* Card 2 */}
           <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg"  >
              <img src="src/assets/Uploading files from computer to cloud (1).png" alt="decorative image" />
             <div className="px-6 pt-4">
-              <div className="font-semibold ml-4 text-xl mb-2 ">System Installation</div>
+              <h1 className="font-semibold ml-4 text-xl mb-2 ">System Installation</h1>
               <div className="text-xs  font-medium my-6 ml-4">
-                <p>Time Software offers technical consultancy services to both 
-                  local and international organizations. With extensive  </p>
-                  {isDescriptionVisible && (
-                <p> experience in all categories of services we deliver and offer <br />
-                  our clients a holistic approach.</p>
-                  )}
-                  
+                <p>Time Software offers technical consultancy services to both local and international organizations. With extensive </p>
+                {isDescriptionVisible[1] && (
+                  <p>experience in all categories of services we deliver and offer our clients a holistic approach.</p>
+                )}
               </div>
               <div className="flex justify-center">
-              <button onClick={toggleDescription}
-                  className="font-medium text-sm" style={{color: '#5D328F'}}>
-                  {isDescriptionVisible ? 'Read Less' : 'Read More'}
-              </button>
-               </div>              
+                <button
+                  onClick={() => toggleDescription(1)} 
+                  className="font-medium text-sm"
+                  style={{ color: '#5D328F' }}
+                >
+                  {isDescriptionVisible[1] ? 'Read Less' : 'Read More'}
+                </button>
+              </div>
             </div>
           </div>
 
+          {/* Card 3 */}
           <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg" >
             <img src="src/assets/Internet service provision and connectivity.png" alt="decorative image" />
             <div className="px-6 pt-4">
-              <div className="font-semibold ml-4 text-xl mb-2 ">Network Design <br /> and Development</div>
+              <h1 className="font-semibold ml-4 text-xl mb-2 ">Network Design <br /> and Development</h1>
               <div className="text-xs  font-medium my-3 ml-4">
-                <p>Time Software offers technical consultancy services to both 
-                  local and international organizations. With extensive  </p>
-                  {isDescriptionVisible && (
-                <p> experience in all categories of services we deliver and offer <br />
-                  our clients a holistic approach.</p>
-                  )}
-                  
+                <p>Time Software offers technical consultancy services to both local and international organizations. With extensive </p>
+                {isDescriptionVisible[2] && (
+                  <p>experience in all categories of services we deliver and offer our clients a holistic approach.</p>
+                )}
               </div>
               <div className="flex justify-center">
-              <button onClick={toggleDescription}
-                  className="font-medium text-sm" style={{color: '#5D328F'}}>
-                  {isDescriptionVisible ? 'Read Less' : 'Read More'}
-              </button>
-               </div> 
+                <button
+                  onClick={() => toggleDescription(2)} 
+                  className="font-medium text-sm"
+                  style={{ color: '#5D328F' }}
+                >
+                  {isDescriptionVisible[2] ? 'Read Less' : 'Read More'}
+                </button>
+              </div>
             </div>
           </div>
             </div>
 
             <div className=" flex sm:justify-evenly justify-center flex-wrap gap-4">
-            <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg" >
+              {/* Card 4 */}
+              <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg" >
               <img src="src/assets/Branding kit, corporate identity development.png" alt="decorative image" />
             <div className="px-6 pt-4">
-              <div className="font-semibold ml-4 text-xl mb-2 ">Corporate Business</div>
+              <h1 className="font-semibold ml-4 text-xl mb-2 ">Corporate Business</h1>
               <div className="text-xs  font-medium my-6 ml-4">
-                <p>Time Software offers technical consultancy services to both 
-                  local and international organizations. With extensive  </p>
-                  {isDescriptionVisible && (
-                <p> experience in all categories of services we deliver and offer <br />
-                  our clients a holistic approach.</p>
-                  )}
-                  
+                <p>Time Software offers technical consultancy services to both local and international organizations. With extensive </p>
+                {isDescriptionVisible[3] && (
+                  <p>experience in all categories of services we deliver and offer our clients a holistic approach.</p>
+                )}
               </div>
               <div className="flex justify-center">
-              <button onClick={toggleDescription}
-                  className="font-medium text-sm" style={{color: '#5D328F'}}>
-                  {isDescriptionVisible ? 'Read Less' : 'Read More'}
-              </button>
-               </div> 
+                <button
+                  onClick={() => toggleDescription(3)} 
+                  className="font-medium text-sm"
+                  style={{ color: '#5D328F' }}
+                >
+                  {isDescriptionVisible[3] ? 'Read Less' : 'Read More'}
+                </button>
+              </div>
             </div>
           </div>
 
-          <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg" >
+            {/* Card 5 */}
+            <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg" >
             <img src="src/assets/OTP verification.png" alt="decorative image" />
             <div className="px-6 pt-4">
-              <div className="font-semibold ml-4 text-xl mb-2 ">SMS Service</div>
+              <h1 className="font-semibold ml-4 text-xl mb-2 ">SMS Service</h1>
               <div className="text-xs  font-medium my-6 ml-4">
-                <p>Time Software offers technical consultancy services to both 
-                  local and international organizations. With extensive </p>
-                  {isDescriptionVisible && (
-                <p> experience in all categories of services we deliver and offer <br />
-                  our clients a holistic approach.</p>
-                  )}
-                  
+                <p>Time Software offers technical consultancy services to both local and international organizations. With extensive </p>
+                {isDescriptionVisible[4] && (
+                  <p>experience in all categories of services we deliver and offer our clients a holistic approach.</p>
+                )}
               </div>
               <div className="flex justify-center">
-              <button onClick={toggleDescription}
-                  className="font-medium text-sm" style={{color: '#5D328F'}}>
-                  {isDescriptionVisible ? 'Read Less' : 'Read More'}
-              </button>
-               </div> 
+                <button
+                  onClick={() => toggleDescription(4)} 
+                  className="font-medium text-sm"
+                  style={{ color: '#5D328F' }}
+                >
+                  {isDescriptionVisible[4] ? 'Read Less' : 'Read More'}
+                </button>
+              </div>
             </div>
           </div>
 
+          {/* Card 6 */}
           <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg"  >
             <img src="src/assets/Risk management and controlling threats.png" alt="decorative image" />
             <div className="px-6 pt-4">
-              <div className="font-semibold ml-4 text-xl mb-2 ">Tech Assisted <br /> Property Management</div>
+              <h1 className="font-semibold ml-4 text-xl mb-2 ">Tech Assisted <br /> Property Management</h1>
               <div className="text-xs  font-medium my-3 ml-4">
-                <p>Time Software offers technical consultancy services to both 
-                  local and international organizations. With extensive  </p>
-                  {isDescriptionVisible && (
-                <p> experience in all categories of services we deliver and offer <br />
-                  our clients a holistic approach.</p>
-                  )}
-                  
+                <p>Time Software offers technical consultancy services to both local and international organizations. With extensive </p>
+                {isDescriptionVisible[5] && (
+                  <p>experience in all categories of services we deliver and offer our clients a holistic approach.</p>
+                )}
               </div>
               <div className="flex justify-center">
-              <button onClick={toggleDescription}
-                  className="font-medium text-sm" style={{color: '#5D328F'}}>
-                  {isDescriptionVisible ? 'Read Less' : 'Read More'}
-              </button>
-               </div> 
+                <button
+                  onClick={() => toggleDescription(5)} 
+                  className="font-medium text-sm"
+                  style={{ color: '#5D328F' }}
+                >
+                  {isDescriptionVisible[5] ? 'Read Less' : 'Read More'}
+                </button>
+              </div>
             </div>
           </div>
             </div>

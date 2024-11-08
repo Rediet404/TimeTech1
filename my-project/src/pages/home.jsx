@@ -1,13 +1,23 @@
 import  { useState } from "react";
 import { Link } from "react-router-dom"
-import Hero from "../../compononets/Hero";
-import Workflow from "../../compononets/Workflow"
+import Hero from "../compononets/Hero";
+import Workflow from "../compononets/Workflow"
 const Home = () => {
   const [isOpen, setIsOpen] = useState(null);
 
   const toggleAccordion = (index) => {
     setIsOpen(isOpen === index ? null : index); 
   };
+
+  const minus = <svg width="20" height="20" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clipPath="url(#clip0_291_186)">
+  <path d="M25 50C18.3696 50 12.0107 47.3661 7.32233 42.6777C2.63392 37.9893 0 31.6304 0 25C0 18.3696 2.63392 12.0107 7.32233 7.32233C12.0107 2.63392 18.3696 0 25 0C31.6304 0 37.9893 2.63392 42.6777 7.32233C47.3661 12.0107 50 18.3696 50 25C50 31.6304 47.3661 37.9893 42.6777 42.6777C37.9893 47.3661 31.6304 50 25 50ZM25 45C30.3043 45 35.3914 42.8929 39.1421 39.1421C42.8929 35.3914 45 30.3043 45 25C45 19.6957 42.8929 14.6086 39.1421 10.8579C35.3914 7.10714 30.3043 5 25 5C19.6957 5 14.6086 7.10714 10.8579 10.8579C7.10714 14.6086 5 19.6957 5 25C5 30.3043 7.10714 35.3914 10.8579 39.1421C14.6086 42.8929 19.6957 45 25 45ZM37.5 22.5V27.5H12.5V22.5H37.5Z" fill="black"/>
+  </g>
+  </svg>
+
+  const plus = <svg width="23" height="23" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M24.9994 4.1665C13.5118 4.1665 4.16602 13.5123 4.16602 24.9998C4.16602 36.4873 13.5118 45.8332 24.9994 45.8332C36.4869 45.8332 45.8327 36.4873 45.8327 24.9998C45.8327 13.5123 36.4869 4.1665 24.9994 4.1665ZM35.416 27.0832H27.0827V35.4165H22.916V27.0832H14.5827V22.9165H22.916V14.5832H27.0827V22.9165H35.416V27.0832Z" fill="black"/>
+  </svg>
 
   return (
     <section className="pt-14">
@@ -86,11 +96,11 @@ const Home = () => {
         <div className="App p-4 w-[90%] sm:w-[55%]">
           <div className="border rounded-lg mb-5 ">
             <div
-              className="flex justify-between p-4  cursor-pointer"
+              className="flex gap-8 p-4  cursor-pointer"
               onClick={() => toggleAccordion(1)}
             >
+              <span>{isOpen === 1 ? minus : plus }</span>
               <h3 className="font-medium text-center">Do you offer flexible payment options?</h3>
-              <span>{isOpen === 1 ? '-' : '+'}</span>
               
             </div>
             {isOpen === 1 && (
@@ -102,11 +112,11 @@ const Home = () => {
 
           <div className="border rounded-lg mb-5">
             <div
-              className="flex justify-between p-4  cursor-pointer"
+              className="flex gap-8 p-4  cursor-pointer"
               onClick={() => toggleAccordion(2)}
             >
-              <h3 className="font-medium text-center">How long does it take to build an MVP?</h3>
-              <span>{isOpen === 2 ? '-' : '+'}</span>
+              <span>{isOpen === 2 ? minus : plus}</span>
+              <h3 className="font-medium text-center">What services do you offer?</h3>
             </div>
             {isOpen === 2 && (
               <div className="p-4">
@@ -117,11 +127,11 @@ const Home = () => {
 
           <div className="border rounded-lg mb-5">
             <div
-              className="flex justify-between p-4 cursor-pointer"
+              className="flex gap-8 p-4 cursor-pointer"
               onClick={() => toggleAccordion(3)}
             >
-              <h3 className="font-medium text-center">How can I request a quote for your service?</h3>
-              <span>{isOpen === 3 ? '-' : '+'}</span>
+              <span>{isOpen === 3 ? minus : plus}</span>
+              <h3 className="font-medium text-center">How long does it take to build an MVP?</h3>
             </div>
             {isOpen === 3 && (
               <div className="p-4">
@@ -131,11 +141,12 @@ const Home = () => {
           </div>
           <div className="border rounded-lg mb-5">
             <div
-              className="flex justify-between p-4 cursor-pointer"
+              className="flex gap-8 p-4 cursor-pointer"
               onClick={() => toggleAccordion(4)}
             >
-              <h3 className="font-medium text-center">Accordion 4</h3>
-              <span>{isOpen === 4 ? '-' : '+'}</span>
+              <span>{isOpen === 4 ? minus : plus}</span>
+              <h3 className="font-medium text-center ">How can I request a quote for your service?</h3>
+              
             </div>
             {isOpen === 4 && (
               <div className="p-4">
