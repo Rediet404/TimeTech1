@@ -16,7 +16,7 @@ const Contact = () => {
             </div>
             <input className="bg-white rounded-lg w-9/12 h-10 p-4 border-2 border-gray-100" type="email" placeholder="email*" />
             <input className="bg-white rounded-lg w-9/12 h-10 p-4 border-2 border-gray-100" type="text" placeholder="subject*" />
-            <textarea className="bg-white rounded-lg  w-9/12 p-3 border-2 border-gray-100" type="text" placeholder="your message*" />
+            <textarea rows={3} className="bg-white rounded-lg   w-9/12 p-3 border-2 border-gray-100 resize-none" type="text" placeholder="your message*" />
             <button className="bg-black rounded-xl text-white w-36 h-9">send</button>
             </form>
         </div>

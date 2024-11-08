@@ -3,7 +3,7 @@ export const Info_card = () => {
   return (
     <>
     <div className="flex justify-center ">
-      <div className="rounded-2xl text-white flex-wrap justify-evenly  sm:justify-between px-10  flex h-fit p-4 w-10/12  items-center" style={{background: "#776DF2"}}>
+      <div className="rounded-2xl text-white flex-wrap justify-between px-10  flex h-fit p-4 w-10/12  items-center" style={{background: "#776DF2"}}>
         <div>
             <h1 className="sm:text-4xl text-xl font-inter font-normal">Ready to transform <br /> 
             your company’s business?</h1>
