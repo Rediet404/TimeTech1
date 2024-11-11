@@ -7,6 +7,7 @@ const Home = () => {
 
   const toggleAccordion = (index) => {
     setIsOpen(isOpen === index ? null : index); 
+  
   };
 
   const minus = <svg width="20" height="20" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +25,7 @@ const Home = () => {
       <Hero/>
       <div className="flex items-center bg-[#f8f8f8] py-20">
       <div className="font-inter mx-auto w-[90%]">
-        <p className="text-center py-2 text-xs uppercase">Services</p>
+        <p className="text-center py-2 text-xs uppercase"></p>
         <p className="text-center pb-10 font-semibold text-2xl">Our expertise</p> 
         <div className="flex flex-wrap justify-center gap-4 sm:justify-evenly">
           <div className="w-72 max-w-sm rounded-lg overflow-hidden shadow-lg bg-home1"  >
