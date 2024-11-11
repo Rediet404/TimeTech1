@@ -1,3 +1,5 @@
+import TeamSection from "../compononets/team";
+
 const About = () => {
   return (
     <section className=" overflow-hidden py-14"  >
@@ -159,8 +161,9 @@ const About = () => {
       Join us in navigating the digital landscape with confidence and innovation.
     </p>
   </div>
+ 
 </div>
-
+<TeamSection/> 
       
     <div className="my-5">    
     </div>

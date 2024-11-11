@@ -1,0 +1,14 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about_us": "About",
+      "services":"Services",
+      "projects":"Projects",
+      "contact_us":"Contact Us"
+
+   
+    },
+    "home":{
+        "software_development":"Software Development"
+    }
+}
