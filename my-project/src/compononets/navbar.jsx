@@ -1,15 +1,22 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-
+  const { t, i18n } = useTranslation();
   // Function to apply active styling
   const getLinkClasses = (path) =>
     location.pathname === path
       ? "text-purple-700 font-semibold" // Active link style
       : "text-gray-600 hover:text-gray-900"; // Default style
+
+// Function to switch the language
+const toggleLanguage = () => {
+  const newLang = i18n.language === 'en' ? 'am' : 'en';
+  i18n.changeLanguage(newLang);
+}
 
   return (
     <> 
@@ -41,15 +48,18 @@ const Navbar = () => {
 
           {/* Navigation links - visible only on medium and larger screens */}
           <div className="hidden md:flex space-x-14 pt-2">
-            <Link to="/" className={getLinkClasses("/")}>Home</Link>
-            <Link to="/about" className={getLinkClasses("/about")}>About Us</Link>
+            <Link to="/" className={getLinkClasses("/")}>{t('navbar.home')}</Link>
+            <Link to="/about" className={getLinkClasses("/about")}>{t('navbar.about_us')}</Link>
             <Link to="/service" className={getLinkClasses("/service")}>Services</Link>
             <Link to="/projects" className={getLinkClasses("/projects")}>Projects</Link>
             <Link to="/contact" className={getLinkClasses("/contact")}>Contact Us</Link>
           </div>
 
           {/* Language option */}
-          <div className="text-gray-600 hidden md:block pt-2">EN</div>
+          <div >
+            <button onClick={toggleLanguage} className="text-gray-600 hidden md:block pt-2">
+            {i18n.language === 'en' ? 'Amharic' : 'English'}
+        </button></div>
         </div>
 
         {/* Dropdown menu for smaller screens */}

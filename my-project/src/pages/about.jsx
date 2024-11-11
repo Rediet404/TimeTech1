@@ -1,3 +1,5 @@
+import TeamSection from "../compononets/team";
+
 const About = () => {
   return (
     <section className=" overflow-hidden py-14"  >
@@ -7,7 +9,7 @@ const About = () => {
     <img className=" h-52" src="src/assets/settings.png" alt="decorative image" />
     <img className="w-72" src="src/assets/strategy.png" alt="decorative image" />
     </div>
-    <div className="flex sm:justify-around flex-wrap p-4 rounded-md  ">
+    <div className="flex sm:justify-around justify-center flex-wrap p-4 rounded-md  ">
     <div className="w-80 h-36 relative mt-48  bg-white bg-opacity-100 z-20  flex  max-w-sm rounded-xl overflow-hidden shadow-lg">
             <div className="bg-purple-50 rounded-full w-14 h-14 p-2 m-5 flex basis-10 justify-center items-center">
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -159,8 +161,9 @@ const About = () => {
       Join us in navigating the digital landscape with confidence and innovation.
     </p>
   </div>
+ 
 </div>
-
+<TeamSection/> 
       
     <div className="my-5">    
     </div>

@@ -79,13 +79,13 @@ function Workflow() {
 
 {/* Values */}
      {/* Values */}
-     <div className="flex flex-wrap sm:justify-evenly gap-4">
+     <div className="flex flex-wrap sm:justify-evenly justify-center gap-4">
         {/* Creativity */}
         <div className="w-[330px] flex items-center gap-4 bg-workflow1_bg p-8 rounded-lg shadow-md border-2 border-workflow1">
           <img src={CreativityIcon} className="w-16 h-16 text-workflow1 mb-4 mx-auto" />
           <div  className='flex flex-col gap-8 items-start'>
             <h4 className="text-lg font-medium text-workflow1 mb-2">Creativity</h4>
-            <p className="text-workflow1 text-justify">We bring innovation to every aspect of your business.</p>
+            <p className="text-workflow1 text-start">We bring innovation to every aspect of your business.</p>
           </div>
         </div>
         {/* Credibility */}
@@ -93,7 +93,7 @@ function Workflow() {
           <img src={CredibilityIcon} className="w-16 h-16 text-workflow2 mb-4 mx-auto" />
           <div className='flex flex-col gap-8 items-start'>
             <h4 className="text-lg font-medium text-workflow2 mb-2">Credibility</h4>
-            <p className="text-workflow2 text-justify">We deliver on our promise every time with guarantee.</p>
+            <p className="text-workflow2 text-start">We deliver on our promise every time with guarantee.</p>
           </div>
         </div>
         {/* Curiosity */}
@@ -102,7 +102,7 @@ function Workflow() {
           <div className='flex flex-col gap-8 items-start'>
             <h4 className="text-lg font-medium text-workflow3 mb-2 ">Curiosity</h4>
 
-            <p className="text-workflow3 text-justify">We stay ahead in the ever-evolving tech space.</p>
+            <p className="text-workflow3 text-start">We stay ahead in the ever-evolving tech space.</p>
 
 
           </div>
