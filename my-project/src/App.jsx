@@ -21,10 +21,10 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/service" element={<Service />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="*" element={<NoPage />} />
           </Route>
+          <Route path="*" element={<NoPage />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> 
     </div>
   );
 }
