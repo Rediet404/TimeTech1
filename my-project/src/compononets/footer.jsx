@@ -77,7 +77,7 @@ const { t } = useTranslation();
         </defs>
             </svg>
           </div>
-        </div>
+        </div> 
 
         {/* Services Section */}
         <div className="text-white w-full lg:w-auto  px-10">

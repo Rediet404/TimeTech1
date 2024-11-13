@@ -1,4 +1,4 @@
-import React from "react";
+
 
 // Sample data for team members, including an image URL for each member
 const teamMembers = [
@@ -13,7 +13,7 @@ const teamMembers = [
   { name: "Daniel Tesfayesus", title: "General Manager", img: "https://via.placeholder.com/150" },
   { name: "Daniel Tesfayesus", title: "General Manager", img: "https://via.placeholder.com/150" },
 ];
-
+ 
 const TeamSection = () => {
   return (
     <section className="py-16 px-4 text-left w-10/12 mx-auto">

@@ -3,7 +3,7 @@ import Footer from './footer';
 import Navbar from './navbar';
 import { Info_card } from './info_card';
 
-const Layout = () => {
+const Layout = () => { 
   return (
     <section className="overflow-hidden" style={{fontFamily:"QuickSand"}}>
       <nav >
