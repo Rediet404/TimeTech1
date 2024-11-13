@@ -1,14 +1,113 @@
 {
-    "navbar": {
-      "home": "Home",
-      "about_us": "About",
-      "services":"Services",
-      "projects":"Projects",
-      "contact_us":"Contact Us"
-
-   
-    },
-    "home":{
-        "software_development":"Software Development"
+  "navbar": {
+    "home": "Home",
+    "about_us": "About",
+    "services":"Services",
+    "projects":"Projects",
+    "contact_us":"Contact Us"
+  },
+  "footer":{
+    "time_software":"Time Software",
+    "header2":"Time Software is a managed services provider (MSP) or a Full-Stack IT solutions company that provides end-to-end technology services for businesses across industries.",
+    "pages":"PAGES",
+    "services":"SERVICES",
+    "services_list":{
+      "1":"Software Development",
+      "2":"System Installation",
+      "3":"Network Design and Installation",
+      "4":"Corporate Business",
+      "5":"SMS Service",
+      "6":"Tech Assisted Property Management"
     }
+
+  },
+  "info_card":{
+    "1":"Ready to transform ",
+    "1.5":"your company’s business?",
+    "2":"Let us transform your business in a short time.",
+    "3":"Get consultation "
+  },
+  "workflow":{
+    "header":"Workflow",
+    "header2":"Step by step of our Workflow",
+    "workflow_step_1":"Consultation",
+    "workflow_step_1_para":"Understanding your business",
+    "workflow_step_1_para2":"needs and goals.",
+    "workflow_step_2":"Planning",
+    "workflow_step_2_para":"Creating an SRS and",
+    "workflow_step_2_para2":"SDS Document.",
+    "workflow_step_3":"Execution",
+    "workflow_step_3_para":"Building the product with",
+    "workflow_step_3_para2":"the utmost care.",
+    "workflow_step_4":"Review",
+    "workflow_step_4_para":"Ensuring the product release",
+    "workflow_step_4_para2":"meets business needs.",
+    "values1":"Creativity",
+    "values1_para":"We bring innovation to every aspect of your business.",
+    "values2":"Credibility",
+    "values2_para":"We deliver on our promise every time with guarantee.",
+    "values3":"Curiosity",
+    "values3_para":"We stay ahead in the ever-evolving tech space."
+  },
+  "hero":{
+    "header": "Empowering Excellence ",
+    "header2": "Through Innovation",
+    "paragraph":" We blend creativity and strategy to craft technical solutions that inspire, engage, and drive success for your business.",
+    "get_consultation": "Get Consultation",
+    "explore_services":"Explore Services"
+  },
+  
+  "home": {
+    "services": "Services",
+    "expertise": "Our Expertise",
+    "services_data1_title":"Software Development",
+    "services_data1_description": "Web design and development Mobile app design and development System and ERP software development",
+    "services_data2_title":"System Installation",
+    "services_data2_description":"Cloud services Voice over internet protocol (VoIP) Network security",
+    "services_data3_title":"Network Design and Installation",
+    "services_data3_description":"Cable Installation Device Installation Testing",
+    "more_services": "See more services",
+    "faq": "FAQ",
+    "faq_text": "Answers to your questions",
+    "faq_data1_title": "Do you offer flexible payment options?",
+    "faq_data1_description":"This is the content of Accordion 1.",
+    "faq_data2_title": "What services do you offer?",
+    "faq_data2_description":"This is the content of Accordion 2.",
+    "faq_data3_title": "How long does it take to build an MVP?",
+    "faq_data3_description":"This is the content of Accordion 3.",
+    "faq_data4_title": "How can I request a quote for your service?",
+    "faq_data4_description":"This is the content of Accordion 4."
+    
+  },
+  "service":{
+      "header":"Combine Creativity & Technical Expertise, We Work For Your Business To Earn, The Best Outcomes",
+      "service":"services",
+      "what_we_do": "What Can We Do",
+      "Partners_Clients":"Partners & Clients",
+      "sectors": {
+          "header":"Sectors We Have Explored",
+          "description": "We are proficient in delivering software solutions to companies of different business verticals. Our background covers such industries as:",
+          "sector1":"Education",
+          "sector2":"Crowdfunding/Fundraising",
+          "sector3":"Finance"
+      },
+      "services_data1_title": "Software Development",
+      "services_data1_description":"Time Software offers technical consultancy services to both local and international organizations.",
+      "services_data1_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach.",
+      "services_data2_title":"System Installation",
+      "services_data2_description":"Time Software offers technical consultancy services to both local and international organizations.",
+      "services_data2_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach.",
+      "services_data3_title":"Network Design and Development",
+      "services_data3_description":"Time Software offers technical consultancy services to both local and international organizations.",
+      "services_data3_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach.",
+      "services_data4_title":"Corporate Business",
+      "services_data4_description":"Time Software offers technical consultancy services to both local and international organizations.",
+      "services_data4_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach.",
+      "services_data5_title": "SMS Service",
+      "services_data5_description":"Time Software offers technical consultancy services to both local and international organizations.",
+      "services_data5_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach.",
+      "services_data6_title": "Tech Assisted Property Management",
+      "services_data6_description":"Time Software offers technical consultancy services to both local and international organizations.",
+      "services_data6_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach."
+  }
 }

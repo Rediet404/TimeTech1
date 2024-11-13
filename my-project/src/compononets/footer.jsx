@@ -1,7 +1,9 @@
 
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+const { t } = useTranslation();
   return (
     <section className="overflow-hidden">
       <div className="font-inter bg-black flex flex-col lg:flex-row flex-wrap py-8 px-10 items-start justify-around mt-24 gap-6 lg:gap-0">
@@ -13,11 +15,11 @@ const Footer = () => {
           </div>
           <div className="flex items-center">
             <img src="src/assets/Logo_large.png" className="w-8 h-8 m-2" alt="logo" />
-            <p className="text-sm font-medium">Time Software</p>
+            <p className="text-sm font-medium">{t('footer.time_software')}</p>
           </div>
           <p className="text-xs p-2 font-medium">
-            Time Software is a managed services provider (MSP) or a Full-Stack IT solutions company that provides end-to-end technology services for businesses across industries.
-          </p>
+          {t('footer.header2')}
+            </p>
           <div className="flex gap-4 p-2">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M20.6941 16.1325L20.1254 16.6987C20.1254 16.6987 18.7716 18.0437 15.0779 14.3712C11.3841 10.6987 12.7379 9.35372 12.7379 9.35372L13.0954 8.99622C13.9791 8.11872 14.0629 6.70872 13.2916 5.67872L11.7166 3.57497C10.7616 2.29997 8.91787 2.13122 7.82412 3.21872L5.86162 5.16872C5.32037 5.70872 4.95787 6.40622 5.00162 7.18122C5.11412 9.16497 6.01162 13.4312 11.0166 18.4087C16.3254 23.6862 21.3066 23.8962 23.3429 23.7062C23.9879 23.6462 24.5479 23.3187 24.9991 22.8687L26.7741 21.1037C27.9741 19.9125 27.6366 17.8687 26.1016 17.035L23.7141 15.7362C22.7066 15.19 21.4816 15.35 20.6941 16.1325Z" fill="white" />
@@ -46,17 +48,16 @@ const Footer = () => {
 <div className="flex flex-row lg:gap-60 ">
         {/* Pages Section */}
         <div className="text-white w-full lg:w-auto px-10">
-          <h1 className="pb-5">PAGES</h1>
-          <p className="py-2"><Link to="/">Home</Link></p>
-          <p><Link to="/about">About Us</Link></p>
-          <p className="py-2"><Link to="/service">Services</Link></p>
-          <p><Link to="/projects">Projects</Link></p>
-          <p className="py-2"><Link to="/contact">Contact Us</Link></p>
+          <h1 className="pb-5">{t('footer.pages')}</h1>
+          <p className="py-2"><Link to="/">{t('navbar.home')}</Link></p>
+          <p><Link to="/about">{t('navbar.about_us')}</Link></p>
+          <p className="py-2"><Link to="/service">{t('navbar.services')}</Link></p>
+          <p><Link to="/projects">{t('navbar.projects')}</Link></p>
+          <p className="py-2"><Link to="/contact">{t('navbar.contact_us')}</Link></p>
           <div className="flex gap-4 py-4">
             <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_360_213)">
 
-Nanati :), [11/6/2024 11:47 AM]
 <path d="M42.5979 42.6083H35.1937V31.0063C35.1937 28.2396 35.1375 24.6792 31.3354 24.6792C27.475 24.6792 26.8854 27.6896 26.8854 30.8021V42.6083H19.4812V18.75H26.5938V22.0021H26.6896C27.6833 20.1271 30.1 18.1479 33.7104 18.1479C41.2125 18.1479 42.6 23.0854 42.6 29.5125L42.5979 42.6083ZM11.1187 15.4854C10.5538 15.4862 9.99416 15.3755 9.47207 15.1595C8.94998 14.9436 8.47567 14.6267 8.07635 14.2269C7.67703 13.8272 7.36057 13.3526 7.14512 12.8303C6.92966 12.308 6.81946 11.7483 6.82083 11.1833C6.82125 10.3329 7.07384 9.50163 7.54667 8.79473C8.0195 8.08783 8.69134 7.53701 9.47722 7.21194C10.2631 6.88686 11.1277 6.80213 11.9618 6.96845C12.7958 7.13477 13.5618 7.54467 14.1629 8.14633C14.7639 8.74799 15.1731 9.51437 15.3386 10.3486C15.5041 11.1828 15.4186 12.0473 15.0927 12.8329C14.7669 13.6184 14.2154 14.2897 13.5081 14.7619C12.8007 15.234 11.9692 15.4858 11.1187 15.4854ZM14.8312 42.6083H7.40625V18.75H14.8312V42.6083ZM46.3021 0H3.68958C1.65 0 0 1.6125 0 3.60208V46.3979C0 48.3896 1.65 50 3.68958 50H46.2958C48.3333 50 50 48.3896 50 46.3979V3.60208C50 1.6125 48.3333 0 46.2958 0H46.3021Z" fill="white"/>
         </g>
         <defs>
@@ -80,13 +81,13 @@ Nanati :), [11/6/2024 11:47 AM]
 
         {/* Services Section */}
         <div className="text-white w-full lg:w-auto  px-10">
-          <p className="pb-4">SERVICES</p>
-          <p className="py-1">Software Development</p>
-          <p>System Installation</p>
-          <p className="py-1">Network Design and Installation</p>
-          <p>Corporate Business</p>
-          <p className="py-1">SMS Service</p>
-          <p>Tech Assisted Property Management</p>
+          <p className="pb-4">{t('footer.services')}</p>
+          <p className="py-1">{t('footer.services_list.1')}</p>
+          <p>{t('footer.services_list.2')}</p>
+          <p className="py-1">{t('footer.services_list.3')}</p>
+          <p>{t('footer.services_list.4')}</p>
+          <p className="py-1">{t('footer.services_list.5')}</p>
+          <p>{t('footer.services_list.6')}</p>
         </div></div>
       </div>
     </section>

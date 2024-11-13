@@ -1,14 +1,113 @@
 {
-    "navbar": {
-      "home": "መነሻ",
-      "about_us": "ስለ እኛ",
-      "services":"አገልግሎቶች",
-      "projects":"ፕሮጀክቶች",
-      "contact_us":"አግኙን"
+  "navbar": {
+    "home": "መነሻ",
+    "about_us": "ስለ እኛ",
+    "services":"አገልግሎቶች",
+    "projects":"ፕሮጀክቶች",
+    "contact_us":"አግኙን"
 
-   
-    },
-    "home":{
-        "software_development":"የሶፍትዌር ልማት"
+ 
+  },
+  "footer": {
+    "time_software": "ታይም ሶፍትዌር",
+    "header2": "ታይም ሶፍትዌር ሙሉ አስተካካይነት ያለው አይቲ መፍትሄ ያቀርባል፤ ለተለያዩ ኢንዱስትሪዎች የቴክኖሎጂ አገልግሎቶችን እስከ መጨረሻው የሚያቀርብ አማራጭ አገልግሎት ተቋም (MSP) ነው።",
+    "pages": "ገፆች",
+    "services": "አገልግሎቶች",
+    "services_list": {
+      "1": "ሶፍትዌር ልምድ",
+      "2": "ሲስተም እንቅስቃሴ",
+      "3": "ኔትወርክ ንድፍና መጫን",
+      "4": "ኮርፖሬት ንግድ",
+      "5": "ኤስኤምኤስ አገልግሎት",
+      "6": "በቴክኖሎጂ የተደገፈ የንብረት አስተዳደር"
     }
+},
+  "info_card": {
+  "1": "ስለ ኩባንያዎ ቢዝነስ ",
+  "1.5":"መቀየር ተዘጋጅታል?",
+  "2": "በጥቂት ጊዜ ቢዝነስዎን እንተምር።",
+  "3": "ምክር ይገኙ"
+  },
+  "workflow": {
+    "header": "የሥራ ሂደት",
+    "header2": "የእኛ የሥራ ሂደት ደረጃ በደረጃ",
+    "workflow_step_1": "እንግዳነት",
+    "workflow_step_1_para": "የንግድዎን ፍላጎቶችና",
+    "workflow_step_1_para2": "ግቦችን መረዳት።",
+    "workflow_step_2": "እቅድ መውጣት",
+    "workflow_step_2_para": "ኤስአርኤስ (SRS) እና ኤስዲኤስ (SDS) ",
+    "workflow_step_2_para2":"ሰነዶች መዘጋጀት።",
+    "workflow_step_3": "ስራ ማስፈጸም",
+    "workflow_step_3_para": "በጥንቃቄና ትኩረት",
+    "workflow_step_3_para2": "ምርትን ማስረከብ።",
+    "workflow_step_4": "ግምገማ",
+    "workflow_step_4_para": "የምርቱ ምላሽ ለንግድዎ",
+    "workflow_step_4_para2": "ፍላጎቶች እንዲያመታቸው ማረጋገጥ።",
+    "values1": "ፈጠራ",
+    "values1_para": "በሁሉም የንግድዎ ዘርፍ ላይ ፈጠራን እናመጣለን።",
+    "values2": "ተአማኒነት",
+    "values2_para": "የገባነውን ቃል በዋስትና እንፈፅማለን።",
+    "values3": "የማወቅ ጉጉት",
+    "values3_para": "ከጊዜ ወደ ጊዜ እያደገ ባለው የቴክኖሎጂ ቦታ ላይ እንቀጥላለን።"
+},
+  "hero":{
+    "header": "ልህቀትን በፈጠራ ",
+    "header2": "ማጎልበት",
+    "paragraph":" ፈጠራን እና  ስልትን በአንድ ላይ በማረግ ተክኒካዊ መፍትሄዎች እንዲመጡ፣ እንዲሁም ለማነቃቂያ፣ ለማሳተፊያ እና ስኬት ለማምጣት ስራ እንሰራለን።",
+    "get_consultation": "ምክር ያግኙ",
+    "explore_services":"አገልግሎቶቻችንን ያስሱ"
+  },
+  "home": {
+  "services": "አገልግሎቶች",
+  "expertise": "ሙያችን",
+  "services_data1_title":"ሶፍትዌር እድገት",
+  "services_data1_description": "ዌብ ንድፍ እና እድገት ሞባይል መተግበሪያ ንድፍ እና እድገት ሲስተም እና ኢአርፒ ሶፍትዌር እድገት",
+  "services_data2_title":"ሲስተም መጫን",
+  "services_data2_description":"ክላውድ አገልግሎቶች በኢንተርኔት ፖርቶኮል (VoIP) ያለው ድምጽ ኔትዎርክ ደህንነት",
+  "services_data3_title":"ኔትዎርክ ንድፍ እና መጫን",
+  "services_data3_description":"ኬብል መጫን የመሣሪያ መጫን ፈተና",
+  "more_services": "ተጨማሪ አገልግሎቶችን ይመልከቱ",
+  "faq": "ተደጋጋሚ ጥያቄዎች",
+  "faq_text": "ለጥያቄዎችዎ መልሶች",
+  "faq_data1_title": "አመቺ መክፈያ አማራጮችን ትሰጣላችሁ?",
+    "faq_data1_description":"ይህ የአኮርዲዮን 1 ውስጥ ያለው ይዘት ነው።.",
+    "faq_data2_title": "እንዴት አገልግሎቶችን ታቀርባላችሁ?",
+    "faq_data2_description":"ይህ የአኮርዲዮን 2 ውስጥ ያለው ይዘት ነው።",
+    "faq_data3_title": "ኤምቪፒ ለመገንባት ምን ያክል ጊዜ ይወስዳል?",
+    "faq_data3_description":"ይህ የአኮርዲዮን 3 ውስጥ ያለው ይዘት ነው።",
+    "faq_data4_title": "ለአገልግሎትዎ ዋጋ እንዴት መጠየቅ እችላለሁ?",
+    "faq_data4_description":"ይህ የአኮርዲዮን 4 ውስጥ ያለው ይዘት ነው።"
+    },
+
+  "service": {
+    "header": "ፈጠራን እና ቴክኒካዊ ችሎታን በማጣመር ለንግድዎ እንሰራለን፣ ምርጥ ውጤቶችን እንያስገኘን እንገኛለን።",
+    "service": "አገልግሎቶች",
+    "what_we_do": "ምን ልንሠራ እንችላለን",
+    "Partners_Clients":"አጋሮች እና ደንበኞች",
+    "sectors": {
+        "header": "የሰራንባቸው  ዘርፎች",
+        "description": "በተለያዩ የንግድ መስኮች ውስጥ ያሉ ኩባንያዎችን የሶፍትዌር መፍትሄዎችን ለመስጠት ብቁ ነን። የእኛ ተሞክሮ እንደነዚህ ያሉ ኢንዱስትሪዎችን ይይዛል፦",
+        "sector1": "ትምህርት",
+        "sector2": "ክትትል/ገንዘብ ማቅረብ",
+        "sector3": "ፋይናንስ"
+          },
+    "services_data1_title": "ሶፍትዌር አንቀሳቃሽ",
+    "services_data1_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
+    "services_data1_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።",
+    "services_data2_title":"ስርዓት ማኅበረት",
+    "services_data2_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
+    "services_data2_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።",
+    "services_data3_title":"ኔትወርክ እንቅስቃሴና ልምድ",
+    "services_data3_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
+    "services_data3_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።",
+    "services_data4_title":"ኮርፖሬት ንግድ",
+    "services_data4_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
+    "services_data4_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።",
+    "services_data5_title": "ኤስኤምኤስ አገልግሎት",
+    "services_data5_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
+    "services_data5_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።",
+    "services_data6_title": "የቴክኖሎጂ የተያያዘ የንብረት አስተዳደር",
+    "services_data6_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
+    "services_data6_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።"
+        }
 }

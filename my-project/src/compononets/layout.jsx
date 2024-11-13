@@ -5,7 +5,7 @@ import { Info_card } from './info_card';
 
 const Layout = () => {
   return (
-    <sectio className="overflow-hidden" style={{fontFamily:"QuickSand"}}>
+    <section className="overflow-hidden" style={{fontFamily:"QuickSand"}}>
       <nav >
         <Navbar />
       </nav>
@@ -13,7 +13,7 @@ const Layout = () => {
       <Outlet />
       <Info_card/>
       <Footer />
-    </sectio>
+    </section>
   )
 };
 
