@@ -1,6 +1,8 @@
 const nopage = () => {
   return (
-    <div>nopage</div>
+    <div>
+      <img className="h-screen w-full" src="src/assets/404.jpg" alt="decorative image" />
+    </div>
   )
 }
 
