@@ -7,8 +7,8 @@
     "contact_us":"Contact Us"
   },
   "footer":{
-    "time_software":"Time Software",
-    "header2":"Time Software is a managed services provider (MSP) or a Full-Stack IT solutions company that provides end-to-end technology services for businesses across industries.",
+    "time_software":"Time Technologies",
+    "header2":"Time Technologies is a managed services provider (MSP) or a Full-Stack IT solutions company that provides end-to-end technology services for businesses across industries.",
     "pages":"PAGES",
     "services":"SERVICES",
     "services_list":{
@@ -92,22 +92,22 @@
           "sector3":"Finance"
       },
       "services_data1_title": "Software Development",
-      "services_data1_description":"Time Software offers technical consultancy services to both local and international organizations.",
-      "services_data1_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach.",
+      "services_data1_description":"We create custom software solutions to help businesses streamline operations and enhance productivity.",
+      "services_data1_description2":" From concept to deployment tailored precisely to your business goals.",
       "services_data2_title":"System Installation",
-      "services_data2_description":"Time Software offers technical consultancy services to both local and international organizations.",
-      "services_data2_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach.",
+      "services_data2_description":"We provide expert installation services for business systems to ensure smooth and reliable operation.",
+      "services_data2_description2":"Our team customizes each setup to align with your business’s specific needs, maximizing efficiency and ease of use.",
       "services_data3_title":"Network Design and Development",
-      "services_data3_description":"Time Software offers technical consultancy services to both local and international organizations.",
-      "services_data3_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach.",
+      "services_data3_description":" Our team specializes in designing secure and scalable networks to support your business infrastructure.",
+      "services_data3_description2":"  We focus on building high-performance networks that improve connectivity and resilience, tailored to meet future growth.",
       "services_data4_title":"Corporate Business",
-      "services_data4_description":"Time Software offers technical consultancy services to both local and international organizations.",
-      "services_data4_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach.",
+      "services_data4_description":"We deliver tailored business solutions that enhance operations, boost productivity, and reduce costs.",
+      "services_data4_description2":"Our corporate services are designed to help businesses navigate digital transformation, staying competitive in a fast-evolving marketplace.",
       "services_data5_title": "SMS Service",
-      "services_data5_description":"Time Software offers technical consultancy services to both local and international organizations.",
-      "services_data5_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach.",
+      "services_data5_description":"Our SMS services help businesses reach customers with important alerts, promotions, and updates.",
+      "services_data5_description2":" We provide a reliable SMS platform that enhances customer engagement, enabling quick effective communication.",
       "services_data6_title": "Tech Assisted Property Management",
-      "services_data6_description":"Time Software offers technical consultancy services to both local and international organizations.",
-      "services_data6_description2":" With extensive experience in all categories of services we deliver and offer our clients a holistic approach."
+      "services_data6_description":"We offer tech-driven solutions for property management to simplify and enhance operations.",
+      "services_data6_description2":" Our services include digital tools for tenant communication, and maintenance management making property oversight more efficient."
   }
 }

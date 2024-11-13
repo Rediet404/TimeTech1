@@ -9,8 +9,8 @@
  
   },
   "footer": {
-    "time_software": "ታይም ሶፍትዌር",
-    "header2": "ታይም ሶፍትዌር ሙሉ አስተካካይነት ያለው አይቲ መፍትሄ ያቀርባል፤ ለተለያዩ ኢንዱስትሪዎች የቴክኖሎጂ አገልግሎቶችን እስከ መጨረሻው የሚያቀርብ አማራጭ አገልግሎት ተቋም (MSP) ነው።",
+    "time_software": "ታይም ቴክኖሎጂዎች",
+    "header2": "ታይም ቴክኖሎጂዎች ሙሉ አስተካካይነት ያለው አይቲ መፍትሄ ያቀርባል፤ ለተለያዩ ኢንዱስትሪዎች የቴክኖሎጂ አገልግሎቶችን እስከ መጨረሻው የሚያቀርብ አማራጭ አገልግሎት ተቋም (MSP) ነው።",
     "pages": "ገፆች",
     "services": "አገልግሎቶች",
     "services_list": {
@@ -91,23 +91,23 @@
         "sector2": "ክትትል/ገንዘብ ማቅረብ",
         "sector3": "ፋይናንስ"
           },
-    "services_data1_title": "ሶፍትዌር አንቀሳቃሽ",
-    "services_data1_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
-    "services_data1_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።",
-    "services_data2_title":"ስርዓት ማኅበረት",
-    "services_data2_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
-    "services_data2_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።",
-    "services_data3_title":"ኔትወርክ እንቅስቃሴና ልምድ",
-    "services_data3_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
-    "services_data3_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።",
-    "services_data4_title":"ኮርፖሬት ንግድ",
-    "services_data4_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
-    "services_data4_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።",
-    "services_data5_title": "ኤስኤምኤስ አገልግሎት",
-    "services_data5_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
-    "services_data5_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።",
-    "services_data6_title": "የቴክኖሎጂ የተያያዘ የንብረት አስተዳደር",
-    "services_data6_description":"Time Software ለሀገራችንና ለዓለም አቀፍ ድርጅቶች ቴክኒካዊ ምክር አገልግሎት ያቀርባል።",
-    "services_data6_description2":" በማንኛውም ዓይነት አገልግሎቶች ስፋት ባለ ባለትን ችሎታ ያላችሁ ባለትን አገልግሎቶችን እንሰጣለን።"
+            "services_data1_title": "ሶፍትዌር ልማት",
+            "services_data1_description": "እኛ ንግዶችን እንዲቀላልሉ እና ፍልሰትን እንዲጨምሩ የሚረዱ ብጁ የሶፍትዌር መፍትሄዎችን እንፈጥራለን።",
+            "services_data1_description2": "ከምንጭ እስከ እንደምንሰጠው በትክክል የተስማሙ ለእርስዎ የተደረገ ነው።",
+            "services_data2_title": "ሲስተም እንቅስቃሴ",
+            "services_data2_description": "እኛ ለንግዶች ሲስተሞች የባለሙያ እንቅስቃሴን ለማቀላጠል እና ለማረጋግጥ እንሰጣለን።",
+            "services_data2_description2": "ቡድናችን እያንዳንዱን እቅድ ለንግዶችዎ እንዲስማማ እና እንዲረቃ እንቅስቃሴ ለማረጋገጥ ያስተካክላል።",
+            "services_data3_title": "ኔትዎርክ እንቅስቃሴ እና ልማት",
+            "services_data3_description": "ቡድናችን የንግድ አዋቂ የኔትዎርክ እንቅስቃሴን ለማስፈራራት እና ለማስተዳደር በብሩህ መንገድ በሰላማዊ አውታር ላይ ነው።",
+            "services_data3_description2": "እኛ የፍላጎትን ግንባታ ለማሳደግ እንደምንሰጠው በሰላማዊነት እና በሥራ ብቃት ላይ ተመሥርቶአል።",
+            "services_data4_title": "የንግድ ኢንተርፕራይዝ",
+            "services_data4_description": "እኛ የንግድን እንቅስቃሴን ለማስፋት ማስታከል እና ወጪውን ለመቀነስ የተስማማ የንግድ መፍትሄዎችን እንሰጣለን።",
+            "services_data4_description2": "የንግድ አገልግሎቶቻችን ንግዶች በአስተዳዳሪ አለም ውስጥ ይወጣሉ እንዲሁም እኛ የዘመኑ ምህዳርን እንዲስማሙ እንረዳለን።",
+            "services_data5_title": "ኤስ ኤም ኤስ አገልግሎት",
+            "services_data5_description": "ኤስ ኤም ኤስ አገልግሎታችን ንግዶችን እንዲደርሱ በተለይ ዝናብን ፕሮሞሽንን እና ስራ ያበራሉ።",
+            "services_data5_description2": "እኛ በታማኝነት በፈጣንነት ማንኛውንም እንቅስቃሴን ለመጫን ትክክለኛነትን እንደምንሰጠው።",
+            "services_data6_title": "ተክኖሎጂ የተደገፈ የንብረት አስተዳደር",
+            "services_data6_description": "እኛ ለንብረት አስተዳደር እንቅስቃሴን በቀላልነት እና እንዲያሳበቡ እንረዳለን።",
+            "services_data6_description2": "እኛ የተከበሩ ምርቶችን እና አደራ እንዲቀላልሉ ለንብረት አስተዳደር በትክክል እንተወሰንበታል።"
         }
 }
