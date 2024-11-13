@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 function Hero() {
   const { t } = useTranslation();
-  return (
+  return ( 
     <section className="text-center py-20 bg-white w-[90%] mx-auto">
       <h1 className="sm:text-5xl text-4xl font-bold text-black mb-2">
         {t('hero.header')}

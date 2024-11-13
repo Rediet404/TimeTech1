@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 export const Info_card = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation(); 
   return (
     <>
     <div className="flex justify-center ">

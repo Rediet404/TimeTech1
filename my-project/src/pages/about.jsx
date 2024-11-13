@@ -57,7 +57,7 @@ const About = () => {
               We stay ahead in the ever-evolving tech space. 
               </p>
             </div>
-          </div>
+          </div> 
     </div>
     <div className=" flex my-14 gap-5 flex-wrap-reverse mx-4 justify-evenly">
       <div className="flex flex-col justify-evenly gap-5">

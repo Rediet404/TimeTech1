@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-
+ 
 const Service = () => {  
   const { t } = useTranslation();
   const [isDescriptionVisible, setIsDescriptionVisible] = useState(

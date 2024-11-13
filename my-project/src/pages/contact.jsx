@@ -19,7 +19,7 @@ const Contact = () => {
             <textarea rows={3} className="bg-white rounded-lg   w-9/12 p-3 border-2 border-gray-100 resize-none" type="text" placeholder="your message*" />
             <button className="bg-black rounded-xl text-white w-36 h-9">send</button>
             </form>
-        </div>
+        </div> 
         </div>
    
     <div className="flex flex-wrap items-center flex-col">

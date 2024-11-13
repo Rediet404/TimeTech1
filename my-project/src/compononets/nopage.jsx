@@ -4,4 +4,4 @@ const nopage = () => {
   )
 }
 
-export default nopage;
+export default nopage; 
