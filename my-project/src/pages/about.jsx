@@ -1,14 +1,15 @@
-import { Info_card } from "../compononets/info_card";
+import TeamSection from "../compononets/team";
+
 const About = () => {
   return (
     <section className=" overflow-hidden py-14"  >
-    <div className="flex justify-evenly sm:h-2/5 h-3/5 absolute w-full font-inter items-start" style={{background: "#776DF2"}}>
+    <div className="flex overflow-hidden justify-evenly sm:h-2/5 h-3/5 absolute w-full font-inter items-start" style={{background: "#776DF2"}}>
     <p className="text-white font-inter font-normal text-3xl ml-5 mt-14">Your Trusted <br /> Technology Partner</p>
-    <img className="w-64 sm:w-80"  src="src\assets/industry.png" alt="decorative image" />
-    <img className="hidden sm:h-52" src="src/assets/settings.png" alt="decorative image" />
-    <img className="hidden sm:w-72" src="src/assets/strategy.png" alt="decorative image" />
+    <img className="w-80"  src="src\assets/industry.png" alt="decorative image" />
+    <img className=" h-52" src="src/assets/settings.png" alt="decorative image" />
+    <img className="w-72" src="src/assets/strategy.png" alt="decorative image" />
     </div>
-    <div className="flex justify-center overflow-x-hidden sm:justify-around flex-wrap p-4 rounded-md  ">
+    <div className="flex sm:justify-around justify-center flex-wrap p-4 rounded-md  ">
     <div className="w-80 h-36 relative mt-48  bg-white bg-opacity-100 z-20  flex  max-w-sm rounded-xl overflow-hidden shadow-lg">
             <div className="bg-purple-50 rounded-full w-14 h-14 p-2 m-5 flex basis-10 justify-center items-center">
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,7 +22,7 @@ const About = () => {
               <p className="text-base pt-4">
               We bring innovation to every aspect of your business.  
               </p>
-            </div>
+            </div> 
           </div>
           <div className="relative sm:mt-48 mt-4 bg-white bg-opacity-100 z-20  w-80 h-36 flex  max-w-sm rounded-xl overflow-hidden shadow-lg">
             <div className="bg-yellow-50 rounded-full w-14 h-14 p-2 m-3 flex basis-10 justify-center items-center">
@@ -60,7 +61,7 @@ const About = () => {
     </div>
     <div className=" flex my-14 gap-5 flex-wrap-reverse mx-4 justify-evenly">
       <div className="flex flex-col justify-evenly gap-5">
-      <img  className="h-60" src="src\assets\Lettering.png" alt="decorative image" />
+      <img  className="sm:h-60 h-0" src="src\assets\Lettering.png" alt="decorative image" />
       <div className="h-60 justify-center flex flex-col">
         <h1 className="font-semibold py-2 text-lg">Who We are: </h1>
         <p>We are a team of problem solvers and doers who is <br />
@@ -160,11 +161,11 @@ const About = () => {
       Join us in navigating the digital landscape with confidence and innovation.
     </p>
   </div>
+ 
 </div>
-
+<TeamSection/> 
       
     <div className="my-5">    
-    <Info_card />
     </div>
     </section>
   )

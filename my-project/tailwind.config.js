@@ -24,7 +24,8 @@ export default {
         'workflow1_bg': '#E8E4FF',
         'workflow2_bg': '#FFF1CC',
         'workflow3_bg':'#CDF3EC',
-
+        'project1':'#5D328F',        
+        'project2':'#105D38',
 
       }
     },
