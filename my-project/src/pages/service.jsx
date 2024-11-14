@@ -197,7 +197,9 @@ const Service = () => {
         </div>
 
         <h1 className="font-semibold text-2xl text-center py-14">{t('service.Partners_Clients')}</h1>
+        <div className='mb-14'>
         <Partners />
+        </div>
         </div>
     </section>
   )
