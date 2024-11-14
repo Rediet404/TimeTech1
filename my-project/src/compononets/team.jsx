@@ -1,9 +1,8 @@
-import React from "react";
 import { useTranslation } from 'react-i18next';
 // Sample data for team members, including an image URL for each member
 
 const TeamSection = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
     const teamMembers = [
   { name: t('about.team_1'), 
     title: t('about.team_1_title'), 

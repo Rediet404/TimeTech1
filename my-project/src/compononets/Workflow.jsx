@@ -1,4 +1,3 @@
- 
 import ConsultationIcon from '/icons/consultation.svg';
 import PlanningIcon from '/icons/planning.svg';
 import ExecutionIcon from '/icons/execution.svg';
