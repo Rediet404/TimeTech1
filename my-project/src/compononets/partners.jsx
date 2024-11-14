@@ -16,11 +16,10 @@ const Partners = () => {
     if (position <= -(itemWidth * (items.length - 3))) {
       setPosition(0); 
     } else {
-      setPosition(position - itemWidth); // Move to the next item
+      setPosition(position - itemWidth); 
     }
   };
 
-  // Handle scrolling to the previous item with infinite loop
   const handlePrev = () => {
     if (position === 0) {
       setPosition(-(itemWidth * (items.length - 3))); // Loop to the last item when at the start
