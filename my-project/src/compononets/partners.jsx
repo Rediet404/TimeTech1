@@ -10,12 +10,11 @@ const Partners = () => {
     { src: 'src/assets/mald.png', alt: 'partner logo' }
   ];
 
-  const itemWidth = window.innerWidth / 3; // Width of one item (3 visible at once)
+  const itemWidth = window.innerWidth / 3;
 
-  // Handle scrolling to the next item with infinite loop
   const handleNext = () => {
     if (position <= -(itemWidth * (items.length - 3))) {
-      setPosition(0); // Loop back to the start when at the end
+      setPosition(0); 
     } else {
       setPosition(position - itemWidth); // Move to the next item
     }
