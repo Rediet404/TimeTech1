@@ -1,36 +1,61 @@
-
-
-const projectsData = [
-  {
-    id: 1,
-    number: "01.",
-    title: "TimeFund",
-    description:
-      "TimeFund is a web and mobile product that is a crowdfunding/fundraising platform that serves as a bridge for people and organizations (charities and for profits) to collect aid and funds from donors.",
-    link: "#",
-    imgSrc: "/images/timefund.png",
-    bgColor: "bg-project1", // Custom background color for TimeFund
-  },
-  {
-    id: 2,
-    number: "02.",
-    title: "Sitota",
-    description:
-      "Sitota is a mobile app to effortlessly send gifts, exchange coins, and withdraw your accumulated gift balance with this app. With this platform, users can enjoy a seamless experience as they share, earn, and cash out their coins.",
-    link: "#",
-    imgSrc: "/images/sitota.png",
-    bgColor: "bg-project2", // Custom background color for Sitota
-  },
-];
+// src/pages/projects.jsx
+import React from "react";
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
+  const { t, i18n } = useTranslation();
+  const projectsData = [
+    {
+      id: 1,
+      number: "01.",
+      title:t('projects.digital_id.title'),
+      description:t('projects.digital_id.description'),
+      link: "#",
+      imgSrc: "/images/fingerprint icon.png",
+      bgColor: "bg-[#000456]", // Custom background color for Sitota
+    },{
+      id: 2,
+      number: "02.",
+      title:t('projects.school_erp.title'),
+      description:t('projects.school_erp.description'),
+      link: "#",
+      imgSrc: "/images/Percentage.png",
+      bgColor: "bg-[#D6260A]", // Custom background color for schoolerp
+    },
+     {
+      id: 3,
+      number: "03.",
+      title:t('projects.timefund.title'),
+      description:t('projects.timefund.description'),
+      link: "#",
+      imgSrc: "/images/timefund.png",
+      bgColor: "bg-project1", // Custom background color for TimeFund
+    },
+    {
+      id: 4,
+      number: "04.",
+      title: t('projects.sitota.title'),
+      description:t('projects.sitota.description'),
+      link: "#",
+      imgSrc: "/images/sitota.png",
+      bgColor: "bg-project2", // Custom background color for Sitota
+    },{
+      id: 5,
+      number: "05.",
+      title:t('projects.Financial.title'),
+      description:t('projects.Financial.description'),
+      link: "#",
+      imgSrc: "/images/time_pay_logo_1.png",
+      bgColor: "bg-[#0184F7]", // Custom background color for Sitota
+    },
+  ];
+  
   return (
+    
     <div className="px-4 md:px-8 lg:px-16 pt-24 pb-24 w-[90%] mx-auto">
-      <h2 className="text-3xl md:text-4xl font-bold text-center pt-4  mb-8">SOME OF OUR WORKS</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-center pt-4  mb-8">{t('projects.topic')}</h2>
       <p className="text-justify text-gray-600 mb-12 max-w-3xl mx-auto">
-        We are a group of young experts who are eager to provide excellent products to businesses worldwide. We have
-        expertise in a variety of fields, including ed tech, e-commerce, affiliate marketing, and SEO-driven development.
-        Our software products portfolio consists of several projects using cutting-edge technology.
+      {t('projects.subtopic')}
       </p>
 
       <div className="space-y-12 ">
