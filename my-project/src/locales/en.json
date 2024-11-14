@@ -6,9 +6,6 @@
     "projects": "Projects",
     "contact_us": "Contact Us"
   },
-  "home": {
-    "software_development": "Software Development"
-  },
   "contact": {
     "1": "Let's get in touch.",
     "2": "Have a question, suggestion, or just want to chat? We'd love to hear from you. Feel free to reach out to us!",
@@ -79,15 +76,6 @@
     "team_1_title":"General Manager",
     "":""
 
-  }
-}
-
-  "navbar": {
-    "home": "Home",
-    "about_us": "About",
-    "services":"Services",
-    "projects":"Projects",
-    "contact_us":"Contact Us"
   },
   "footer":{
     "time_software":"Time Technologies",
