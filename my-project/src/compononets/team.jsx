@@ -1,4 +1,3 @@
-
 import { useTranslation } from 'react-i18next';
 // Sample data for team members, including an image URL for each member
 
