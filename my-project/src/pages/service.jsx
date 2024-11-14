@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import Partners from '../compononets/partners';
 
  
 const Service = () => {  
@@ -35,7 +36,7 @@ const Service = () => {
           <div className="w-80 h-fit pb-6 bg-white max-w-sm rounded-xl overflow-hidden shadow-lg">
             <img src="src/assets/DevOps, software development methodology and framework (1).png" alt="decorative image" />
             <div className="px-6 pt-4">
-              <h1 className="font-semibold ml-4 text-xl mb-2">{t('service.services_data1_title')}</h1>
+              <h1 className="font-semibold text-center ml-4 text-xl mb-2">{t('service.services_data1_title')}</h1>
               <div className="text-xs font-medium my-6 ml-4">
                 <p>{t('service.services_data1_description')}</p>
                 {isDescriptionVisible[0] && (
@@ -57,7 +58,7 @@ const Service = () => {
           <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg"  >
              <img src="src/assets/Uploading files from computer to cloud (1).png" alt="decorative image" />
             <div className="px-6 pt-4">
-              <h1 className="font-semibold ml-4 text-xl mb-2 ">{t('service.services_data2_title')}</h1>
+              <h1 className="font-semibold text-center ml-4 text-xl mb-2 ">{t('service.services_data2_title')}</h1>
               <div className="text-xs  font-medium my-6 ml-4">
                 <p>{t('service.services_data2_description')}</p>
                 {isDescriptionVisible[1] && (
@@ -78,9 +79,9 @@ const Service = () => {
 
           {/* Card 3 */}
           <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg" >
-            <img src="src/assets/Internet service provision and connectivity.png" alt="decorative image" />
+            <img  src="src/assets/Internet service provision and connectivity.png" alt="decorative image" />
             <div className="px-6 pt-4">
-              <h1 className="font-semibold ml-4 text-xl mb-2 ">{t('service.services_data3_title')}</h1>
+              <h1 className="font-semibold text-center  text-xl mb-6 pt-2 ">{t('service.services_data3_title')}</h1>
               <div className="text-xs  font-medium my-3 ml-4">
                 <p>{t('service.services_data3_description')}</p>
                 {isDescriptionVisible[2] && (
@@ -103,9 +104,9 @@ const Service = () => {
             <div className=" flex sm:justify-evenly justify-center flex-wrap gap-4">
               {/* Card 4 */}
               <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg" >
-              <img src="src/assets/Branding kit, corporate identity development.png" alt="decorative image" />
+              <img className='pt-5 w-72' src="src/assets/Branding kit, corporate identity development.png" alt="decorative image" />
             <div className="px-6 pt-4">
-              <h1 className="font-semibold ml-4 text-xl mb-2 ">{t('service.services_data4_title')}</h1>
+              <h1 className="font-semibold text-center ml-4 text-xl mb-2 ">{t('service.services_data4_title')}</h1>
               <div className="text-xs  font-medium my-6 ml-4">
                 <p>{t('service.services_data4_description')}</p>
                 {isDescriptionVisible[3] && (
@@ -128,7 +129,7 @@ const Service = () => {
             <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg" >
             <img src="src/assets/OTP verification.png" alt="decorative image" />
             <div className="px-6 pt-4">
-              <h1 className="font-semibold ml-4 text-xl mb-2 ">{t('service.services_data5_title')}</h1>
+              <h1 className="font-semibold text-center ml-4 text-xl mb-2 ">{t('service.services_data5_title')}</h1>
               <div className="text-xs  font-medium my-6 ml-4">
                 <p>{t('service.services_data5_description')} </p>
                 {isDescriptionVisible[4] && (
@@ -151,7 +152,7 @@ const Service = () => {
           <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg"  >
             <img src="src/assets/Risk management and controlling threats.png" alt="decorative image" />
             <div className="px-6 pt-4">
-              <h1 className="font-semibold ml-4 text-xl mb-2 ">{t('service.services_data6_title')}</h1>
+              <h1 className="font-semibold text-center ml-4 text-xl mb-2 ">{t('service.services_data6_title')}</h1>
               <div className="text-xs  font-medium my-3 ml-4">
                 <p>{t('service.services_data6_description')}</p>
                 {isDescriptionVisible[5] && (
@@ -196,6 +197,7 @@ const Service = () => {
         </div>
 
         <h1 className="font-semibold text-2xl text-center py-14">{t('service.Partners_Clients')}</h1>
+        <Partners />
         </div>
     </section>
   )
