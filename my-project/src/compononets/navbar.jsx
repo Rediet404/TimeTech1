@@ -6,17 +6,16 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const { t, i18n } = useTranslation();
-  // Function to apply active styling
+  
   const getLinkClasses = (path) =>
     location.pathname === path
-      ? "text-purple-700 font-semibold" // Active link style
-      : "text-gray-600 hover:text-gray-900"; // Default style
+      ? "text-purple-700 font-semibold"
+      : "text-gray-600 hover:text-gray-900";
 
-// Function to switch the language
-const toggleLanguage = () => {
-  const newLang = i18n.language === 'en' ? 'am' : 'en';
-  i18n.changeLanguage(newLang);
-}
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'en' ? 'am' : 'en';
+    i18n.changeLanguage(newLang);
+  }
 
   return (
     <> 
@@ -56,30 +55,35 @@ const toggleLanguage = () => {
           </div>
 
           {/* Language option */}
-          <div >
-            <button onClick={toggleLanguage} className="text-gray-600 hidden md:block pt-2">
-            {i18n.language === 'en' ? 'Amharic' : 'English'}
-        </button></div>
+          <div>
+            <button onClick={toggleLanguage} className="text-gray-600 md:block pt-2">
+              {i18n.language === 'en' ? 'አማ' : 'Eng'}
+            </button>
+          </div>
         </div>
 
         {/* Dropdown menu for smaller screens */}
         {isOpen && (
-          <div className="md:hidden flex flex-col items-start pl-12  space-y-4 mt-8">
+          <div className="md:hidden flex flex-col items-start pl-12 space-y-4 mt-8">
             <Link to="/" onClick={() => setIsOpen(false)} className={getLinkClasses("/")}>
-              Home
+              {t('navbar.home')}
             </Link>
             <Link to="/about" onClick={() => setIsOpen(false)} className={getLinkClasses("/about")}>
-              About Us
+              {t('navbar.about_us')}
             </Link>
             <Link to="/service" onClick={() => setIsOpen(false)} className={getLinkClasses("/service")}>
-              Services
+              {t('navbar.services')}
             </Link>
             <Link to="/projects" onClick={() => setIsOpen(false)} className={getLinkClasses("/projects")}>
-              Projects
+              {t('navbar.projects')}
             </Link>
             <Link to="/contact" onClick={() => setIsOpen(false)} className={getLinkClasses("/contact")}>
-              Contact Us
+              {t('navbar.contact_us')}
             </Link>
+            {/* Language toggle for mobile view */}
+            <button onClick={() => { toggleLanguage(); setIsOpen(false); }} className="text-gray-600">
+              {i18n.language === 'en' ? 'Amharic' : 'English'}
+            </button>
           </div>
         )}
       </nav>

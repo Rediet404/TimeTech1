@@ -2,9 +2,80 @@
   "navbar": {
     "home": "Home",
     "about_us": "About",
-    "services":"Services",
-    "projects":"Projects",
-    "contact_us":"Contact Us"
+    "services": "Services",
+    "projects": "Projects",
+    "contact_us": "Contact Us"
+  },
+  "contact": {
+    "1": "Let's get in touch.",
+    "2": "Have a question, suggestion, or just want to chat? We'd love to hear from you. Feel free to reach out to us!",
+    "3": "Let's get in touch.",
+    "first_name": "first name",
+    "last_name": "last name",
+    "email": "email",
+    "subject": "subject",
+    "your_message": "your message",
+    "send": "send",
+    "address1": "Meskel Flower (on the road to Dembel)",
+    "address2": "Infront of Dream Liner Hotel",
+    "address3": "Jems Building, 5th Floor"
+  },
+  "projects": {
+    "topic": "SOME OF OUR WORKS",
+    "subtopic": "We are a group of young experts who are eager to provide excellent products to businesses worldwide. We have expertise in a variety of fields, including ed tech, e-commerce, affiliate marketing, and SEO-driven development. Our software products portfolio consists of several projects using cutting-edge technology.",
+    "Visit_website": "Visit site",
+    "timefund": {
+      "title": "TimeFund",
+      "description": "Timefund is a fundraising website and mobile app that helps people and organizations to collect funds or aids from donors."
+    },
+    "sitota": {
+      "title": "Sitota",
+      "description": "Sitota is a mobile app to effortlessly send gifts, exchange coins, and withdraw your accumulated gift balance with this app. With this platform, users can enjoy a seamless experience as they share, earn, and cash out their coins."
+    },"school_erp":{
+      "title":"School ERP",
+      "description":"Built a School ERP system to streamline administration, academics, and finance, improving efficiency in enrollment, fee collection, attendance, and reporting. This platform enhances communication and provides real-time access to essential tools for administrators, teachers, students, and parents." 
+    },"digital_id":{
+      "title":"Digital ID",
+      "description":"Developed a secure Digital ID system to streamline identity verification and management, ensuring user data privacy and improving access to digital services."
+    },"Financial":{
+      "title":"Financial Technology",
+      "description":"Built a financial technology solution that simplifies digital transactions, enhances payment security, and supports seamless fund transfers, prioritizing user experience and compliance with regulatory standards"
+    }
+  },"about":{
+    "1":"Your Trusted ",
+    "2":"Technology Partner",
+    "creativity":"Creativity",
+    "creativity_detail":"We bring innovation to every aspect of your business.",
+    "credibility":"Credibility",
+    "credibility_detail1":"We deliver on our promise,",
+    "credibility_detail2":" every time with our guarantee.",
+    "curiosity":"Curiosity",
+    "curiosity_detail":"We stay ahead in the ever-evolving tech space.",
+    "about":"About",
+    "title1":"Your Trusted",
+    "title2":" Partner In ",
+    "title3":"Technology",
+    "intro":"Who We are:",
+    "intro_detail":"We are a team of problem solvers and doers who is dedicated to identify problems and gaps in business and support them in technology affordable digital solutions at an uncompromised level of quality.",
+    "evolution":"Evolution Into Success",
+    "evolution_detail":"Founded in 2021, TIME SOFTWARE is a ETHIO-headquartered provider of technology and marketing solutions with professionals located in Ethiopia.",
+    "commitment":"Our Commitment",
+    "commitment_detail":"Since our inception, TIME SOFTWARE has successfully delivered an impressive array of successful projects for a long list of clients across Educational and Other digital solution.",
+    "mission":"Our Mission",
+    "mission_detail":"We are committed to engineering world-class digital solutions, products, and services that would solve business problems to improve efficiency.",
+    "vision":"Our Vision",
+    "vision_detail":"TIMESOFTWARE aims to be one of the top web, mobile, and custom software solution providers, offering the best user experience.",
+    "clients":"Clients & Partnerships",
+    "succession":"Succession Rate",
+    "years":"Years of Experience",
+    "customer_support":"Customer Support",
+    "detail":"Our diverse services encompass IT services, software solutions, website and application development, consultancy, and ERP software development. Backed by an elite team with extensive experience serving both enterprises and startups, we take pride in being your tech partner on the path to business success, market dominance, and unwavering dependability. Join us in navigating the digital landscape with confidence and innovation.",
+    "team":"MEET THE TEAM",
+    "team_detail":"Meet our dedicated team of innovators and creatives. With diverse expertise and open communication, we thrive on collaboration. Each member contributes unique skills, fostering a dynamic and forward-thinking environment. we are a dedicated, bright, and creative team.",
+    "team_1":"Daniel Tesfayesus",
+    "team_1_title":"General Manager",
+    "":""
+
   },
   "footer":{
     "time_software":"Time Technologies",
