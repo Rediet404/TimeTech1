@@ -1,7 +1,7 @@
 import TeamSection from '../compononets/team';
 import { useTranslation } from 'react-i18next';
 const About = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <section className=" overflow-hidden py-14  ">
       <div
