@@ -22,9 +22,9 @@ const Partners = () => {
 
   const handlePrev = () => {
     if (position === 0) {
-      setPosition(-(itemWidth * (items.length - 3))); // Loop to the last item when at the start
+      setPosition(-(itemWidth * (items.length - 3))); 
     } else {
-      setPosition(position + itemWidth); // Move to the previous item
+      setPosition(position + itemWidth); 
     }
   };
 
