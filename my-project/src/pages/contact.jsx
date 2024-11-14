@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
- const { t, i18n } = useTranslation();
+ const { t } = useTranslation();
   return (
     <>
     <div className="flex pt-20  flex-col font-inter items-center mx-auto w-[90%]">
@@ -17,12 +17,8 @@ const Contact = () => {
             </div>
             <input className="bg-white rounded-lg w-9/12 h-10 p-4 border-2 border-gray-100" type="email" placeholder={t('contact.email')} />
             <input className="bg-white rounded-lg w-9/12 h-10 p-4 border-2 border-gray-100" type="text" placeholder={t('contact.subject')} />
-            <textarea className="bg-white rounded-lg  w-9/12 p-3 border-2 border-gray-100" type="text" placeholder={t('contact.your_message')} />
+            <textarea rows={3} className="bg-white rounded-lg  w-9/12 p-3 border-2  resize-none border-gray-100" type="text" placeholder={t('contact.your_message')} />
             <button className="bg-black rounded-xl text-white w-36 h-9">{t('contact.send')}</button>
-            <input className="bg-white rounded-lg w-9/12 h-10 p-4 border-2 border-gray-100" type="email" placeholder="email*" />
-            <input className="bg-white rounded-lg w-9/12 h-10 p-4 border-2 border-gray-100" type="text" placeholder="subject*" />
-            <textarea rows={3} className="bg-white rounded-lg   w-9/12 p-3 border-2 border-gray-100 resize-none" type="text" placeholder="your message*" />
-            <button className="bg-black rounded-xl text-white w-36 h-9">send</button>
             </form>
         </div> 
         </div>
