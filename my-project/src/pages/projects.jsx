@@ -1,9 +1,8 @@
-// src/pages/projects.jsx
-import React from "react";
+
 import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const projectsData = [
     {
       id: 1,
