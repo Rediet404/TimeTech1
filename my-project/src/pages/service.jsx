@@ -19,7 +19,7 @@ const Service = () => {
     <section className="overflow-hidden pt-20 ">
        <div className="flex justify-around h-1/4 items-center w-[90%] mx-auto">
             <img className="w-48 sm:w-72 h-68" src="src/assets/User interface in web design.png" alt="decorative image" />
-            <h1 className="font-semibold sm:text-4xl px-4 text-lg text-center animate-moveFromLeft" >{t('service.header')}
+            <h1 className="font-semibold sm:text-4xl px-4 text-lg text-center animate-moveFromLeft " >{t('service.header')}
             </h1>
             <img className="sm:w-52 w-0 mx-0" src="src/assets/Network security, firewall and online safety (1).png" alt="decorative image" />
         </div> 
