@@ -1,24 +1,30 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 
 const Partners = () => {
   const [position, setPosition] = useState(0);
-  
-  const itemWidth = screen; // Width of each item including margin (adjust as needed)
-  const visibleItems = 3; // Number of visible items at once
 
   const items = [
-    'Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6', 'Item 7'
+    { src: 'src/assets/bishoftu.png', alt: 'partner logo' },
+    { src: 'src/assets/telebirr-logo.png', alt: 'partner logo' },
+    { src: 'src/assets/elbethel.png', alt: 'partner logo' },
+    { src: 'src/assets/mald.png', alt: 'partner logo' }
   ];
 
+  const itemWidth = window.innerWidth / 3;
+
   const handleNext = () => {
-    if (position > -(itemWidth * (items.length - visibleItems))) {
-      setPosition(position - itemWidth);
+    if (position <= -(itemWidth * (items.length - 3))) {
+      setPosition(0); 
+    } else {
+      setPosition(position - itemWidth); 
     }
   };
 
   const handlePrev = () => {
-    if (position < 0) {
-      setPosition(position + itemWidth);
+    if (position === 0) {
+      setPosition(-(itemWidth * (items.length - 3))); 
+    } else {
+      setPosition(position + itemWidth); 
     }
   };
 
@@ -27,19 +33,24 @@ const Partners = () => {
       <button 
         onClick={handlePrev} 
         className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-300 p-2 rounded-full"
-        disabled={position === 0}
       >
         ‹
       </button>
 
-      <div className="overflow-hidden w-[360px]"> {/* Adjust width based on number of visible items */}
+      <div className="overflow-hidden w-full">
         <div 
           className="flex transition-transform duration-300"
           style={{ transform: `translateX(${position}px)` }}
         >
           {items.map((item, index) => (
-            <div key={index} className="flex-shrink-0 w-[100px] mx-2 text-center bg-gray-200 p-4">
-              {item}
+            <div key={index} className="flex-shrink-0" style={{ width: itemWidth }}>
+              <div className="overflow-hidden">
+                <img 
+                  src={item.src} 
+                  alt={item.alt} 
+                  className="w-full h-[200px] object-contain"
+                />
+              </div>
             </div>
           ))}
         </div>
@@ -48,7 +59,6 @@ const Partners = () => {
       <button 
         onClick={handleNext} 
         className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-300 p-2 rounded-full"
-        disabled={position <= -(itemWidth * (items.length - visibleItems))}
       >
         ›
       </button>
