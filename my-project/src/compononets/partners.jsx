@@ -7,13 +7,14 @@ const Partners = () => {
     { src: 'src/assets/bishoftu.png', alt: 'partner logo' },
     { src: 'src/assets/telebirr-logo.png', alt: 'partner logo' },
     { src: 'src/assets/elbethel.png', alt: 'partner logo' },
-    { src: 'src/assets/mald.png', alt: 'partner logo' }
+    { src: 'src/assets/mald.png', alt: 'partner logo' },
+    
   ];
 
-  const itemWidth = window.innerWidth / 3;
+  const itemWidth = window.innerWidth / 4;
 
   const handleNext = () => {
-    if (position <= -(itemWidth * (items.length - 3))) {
+    if (position <= -(itemWidth * (items.length - 4))) {
       setPosition(0); 
     } else {
       setPosition(position - itemWidth); 
@@ -22,7 +23,7 @@ const Partners = () => {
 
   const handlePrev = () => {
     if (position === 0) {
-      setPosition(-(itemWidth * (items.length - 3))); 
+      setPosition(-(itemWidth * (items.length - 4))); 
     } else {
       setPosition(position + itemWidth); 
     }
@@ -48,7 +49,7 @@ const Partners = () => {
                 <img 
                   src={item.src} 
                   alt={item.alt} 
-                  className="w-full h-[200px] object-contain"
+                  className="w-full h-[100px] object-contain "
                 />
               </div>
             </div>
