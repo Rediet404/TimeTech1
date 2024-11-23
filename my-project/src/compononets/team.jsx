@@ -6,14 +6,14 @@ const TeamSection = () => {
     const teamMembers = [
   { name: t('about.team_1'), 
     title: t('about.team_1_title'), 
-    img: "https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?cs=srgb&dl=pexels-sulimansallehi-1704488.jpg&fm=jpg" },
+    img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
   { name: "Daniel Tesfayesus",
     title: "General Manager", 
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs3RVyq9BwOt2dCo11v9PS_lzhxRiYwVu-h-xo7UHSe1mqS7CVuzOl7Th-lqaf-WgaJPk&usqp=CAU" },
-  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCwxVGrqxrpaIBf61FuU89BKmah8ILGOTYlAHFnj9KyYdMos7ZdGFZgWr-HRmMO9_q5uM&usqp=CAU" },
-  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.webp?a=1&b=1&s=612x612&w=0&k=20&c=OnzQRmrTWj779-DI4_aEykdTKuwL-Ubphs1cdQ3tyxE=" },
-  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://media.istockphoto.com/id/1476170969/photo/portrait-of-young-man-ready-for-job-business-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=-F_sZl6saA5wNg2OTdO3zcHZ3aQ2ml9Ru-PXGcUDdHg=" },
-  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://media.istockphoto.com/id/1501770003/photo/happy-handsome-young-indian-man-head-shot-front-portrait.webp?a=1&b=1&s=612x612&w=0&k=20&c=e8Ag8EsPlHD4gKmJGaZApE5d4m6bV6BWnQqwjIaKXoA=" },
+    img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
+  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
+  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
+  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
+  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
 ];
  return (
     <section className="py-16 px-4 text-left w-10/12 mx-auto">
