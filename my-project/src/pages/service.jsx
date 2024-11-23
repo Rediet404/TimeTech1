@@ -17,7 +17,7 @@ const Service = () => {
   };
   return (
     <section className="overflow-hidden pt-20 ">
-       <div className="flex justify-around h-1/4 items-center w-[90%] mx-auto">
+       <div className="flex max-sm:flex-wrap-reverse pt-4 sm:pt-0 justify-around h-1/4 items-center w-[90%] mx-auto">
             <img className="w-48 sm:w-72 h-68" src="src/assets/User interface in web design.png" alt="decorative image" />
             <h1 className="font-semibold sm:text-4xl px-4 text-lg text-center animate-moveFromLeft  " >{t('service.header')}
             </h1>
