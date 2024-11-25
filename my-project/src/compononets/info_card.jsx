@@ -12,7 +12,7 @@ export const Info_card = () => {
             <Link to="/contact"><button className="bg-black rounded-2xl w-36 h-8 text-white text-sm shadow-md">{t('info_card.3')}  </button></Link>
         </div>
         <div>
-          <img className="w-64 h-48 " src="src/assets/learning.png" alt="decorative image" />
+          <img className="w-64 h-48 " src="/images/learning.png" alt="decorative image" />
         </div>
       </div>
       </div>

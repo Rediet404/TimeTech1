@@ -4,10 +4,10 @@ const Partners = () => {
   const [position, setPosition] = useState(0);
 
   const items = [
-    { src: 'src/assets/bishoftu.png', alt: 'partner logo' },
-    { src: 'src/assets/telebirr-logo.png', alt: 'partner logo' },
-    { src: 'src/assets/elbethel.png', alt: 'partner logo' },
-    { src: 'src/assets/mald.png', alt: 'partner logo' },
+    { src: '/images/bishoftu.png', alt: 'partner logo' },
+    { src: '/images/telebirr-logo.png', alt: 'partner logo' },
+    { src: '/images/elbethel.png', alt: 'partner logo' },
+    { src: '/images/mald.png', alt: 'partner logo' },
     
   ];
 
