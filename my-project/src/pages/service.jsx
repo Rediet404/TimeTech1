@@ -18,10 +18,10 @@ const Service = () => {
   return (
     <section className="overflow-hidden pt-20 ">
        <div className="flex max-sm:flex-wrap-reverse pt-4 sm:pt-0 justify-around h-1/4 items-center w-[90%] mx-auto">
-            <img className="w-48 sm:w-72 h-68" src="src/assets/User interface in web design.png" alt="decorative image" />
-            <h1 className="font-semibold sm:text-4xl px-4 text-lg text-center animate-moveFromLeft" >{t('service.header')}
+            <img className="w-48 sm:w-72 h-68" src="/images/User interface in web design.png" alt="decorative image" />
+            <h1 className="font-semibold sm:text-4xl px-4 text-lg text-center animate-moveFromLeft  " >{t('service.header')}
             </h1>
-            <img className="sm:w-52 w-0 mx-0" src="src/assets/Network security, firewall and online safety (1).png" alt="decorative image" />
+            <img className="sm:w-52 w-0 mx-0" src="/images/Network security, firewall and online safety (1).png" alt="decorative image" />
         </div> 
         <div className="flex flex-col gap-10 w-screen bg-[#f8f8f8] py-12 mt-10">
           <div className="text-center">
@@ -34,7 +34,7 @@ const Service = () => {
             
           {/* Card 1 */}
           <div className="w-80 h-fit pb-6 bg-white max-w-sm rounded-xl overflow-hidden shadow-lg">
-            <img src="src/assets/DevOps, software development methodology and framework (1).png" alt="decorative image" />
+            <img src="/images/DevOps, software development methodology and framework (1).png" alt="decorative image" />
             <div className="px-6 pt-4">
               <h1 className="font-semibold text-center ml-4 text-xl mb-2">{t('service.services_data1_title')}</h1>
               <div className="text-xs font-medium my-6 ml-4">
@@ -56,7 +56,7 @@ const Service = () => {
           </div>
           {/* Card 2 */}
           <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg"  >
-             <img src="src/assets/Uploading files from computer to cloud (1).png" alt="decorative image" />
+             <img src="/images/Uploading files from computer to cloud (1).png" alt="decorative image" />
             <div className="px-6 pt-4">
               <h1 className="font-semibold text-center ml-4 text-xl mb-2 ">{t('service.services_data2_title')}</h1>
               <div className="text-xs  font-medium my-6 ml-4">
@@ -79,7 +79,7 @@ const Service = () => {
 
           {/* Card 3 */}
           <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg" >
-            <img  src="src/assets/Internet service provision and connectivity.png" alt="decorative image" />
+            <img  src="/images/Internet service provision and connectivity.png" alt="decorative image" />
             <div className="px-6 pt-4">
               <h1 className="font-semibold text-center  text-xl mb-6 pt-2 ">{t('service.services_data3_title')}</h1>
               <div className="text-xs  font-medium my-3 ml-4">
@@ -104,7 +104,7 @@ const Service = () => {
             <div className=" flex sm:justify-evenly justify-center flex-wrap gap-4">
               {/* Card 4 */}
               <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg" >
-              <img className='pt-5 w-72' src="src/assets/Branding kit, corporate identity development.png" alt="decorative image" />
+              <img className='pt-5 w-72' src="/images/Branding kit, corporate identity development.png" alt="decorative image" />
             <div className="px-6 pt-4">
               <h1 className="font-semibold text-center ml-4 text-xl mb-2 ">{t('service.services_data4_title')}</h1>
               <div className="text-xs  font-medium my-6 ml-4">
@@ -127,7 +127,7 @@ const Service = () => {
 
             {/* Card 5 */}
             <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg" >
-            <img src="src/assets/OTP verification.png" alt="decorative image" />
+            <img src="/images/OTP verification.png" alt="decorative image" />
             <div className="px-6 pt-4">
               <h1 className="font-semibold text-center ml-4 text-xl mb-2 ">{t('service.services_data5_title')}</h1>
               <div className="text-xs  font-medium my-6 ml-4">
@@ -150,7 +150,7 @@ const Service = () => {
 
           {/* Card 6 */}
           <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg"  >
-            <img src="src/assets/Risk management and controlling threats.png" alt="decorative image" />
+            <img src="../assets/Risk management and controlling threats.png" alt="decorative image" />
             <div className="px-6 pt-4">
               <h1 className="font-semibold text-center ml-4 text-xl mb-2 ">{t('service.services_data6_title')}</h1>
               <div className="text-xs  font-medium my-3 ml-4">

@@ -15,6 +15,8 @@ const Navbar = () => {
   const toggleLanguage = () => {
     const newLang = i18n.language === 'en' ? 'am' : 'en';
     i18n.changeLanguage(newLang);
+    localStorage.setItem('language', newLang);
+    
   }
 
   return (
@@ -22,7 +24,7 @@ const Navbar = () => {
       <nav className="fixed z-50 w-[100%] bg-white py-4">
         <div className="flex justify-between w-[86%] mx-auto">
           <Link to="/" className="text-xl font-bold text-project1 underline-offset-4">
-            <img src="src/assets/time-logo.png" alt="logo" className="h-9 w-24" />
+            <img src="/images/time-logo.png" alt="logo" className="h-9 w-24" />
           </Link>
 
           {/* Burger icon for smaller screens */}

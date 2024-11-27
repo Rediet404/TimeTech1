@@ -13,17 +13,17 @@ const About = () => {
                   </p>
         <img
           className="w-80"
-          src="src\assets/industry.png"
+          src="/images/industry.png"
           alt="decorative image"
         />
         <img
           className=" h-52"
-          src="src/assets/settings.png"
+          src="/images/settings.png"
           alt="decorative image"
         />
         <img
           className="w-72"
-          src="src/assets/strategy.png"
+          src="/images/strategy.png"
           alt="decorative image"
         />
       </div>
@@ -122,7 +122,7 @@ const About = () => {
         <div className="flex  flex-col justify-evenly gap-5">
           <img
             className="h-60"
-            src="src\assets\Lettering.png"
+            src="/images\Lettering.png"
             alt="decorative image"
           />
           <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
@@ -134,7 +134,7 @@ const About = () => {
           </div>
           <img
             className="h-60"
-            src="/src/assets/Ai.png"
+            src="/images/Ai.png"
             alt="decorative image"
           />
           <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
@@ -145,7 +145,7 @@ const About = () => {
           </div>
           <img
             className="h-60 w-72"
-            src="/src/assets/space.png"
+            src="/images/space.png"
             alt="decorative image"
           />
           <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
@@ -220,7 +220,7 @@ const About = () => {
           </div>
           <img
             className="h-60"
-            src="/src/assets/Planet.png"
+            src="/images/Planet.png"
             alt="decorative image"
           />
           <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
@@ -233,7 +233,7 @@ const About = () => {
           </div>
           <img
             className="h-64"
-            src="/src/assets/unlocked.png"
+            src="/images/unlocked.png"
             alt="decorative image"
           />
           <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
@@ -243,8 +243,9 @@ const About = () => {
             </p>
           </div>
           <img
+           
+            src="/images/lace.png"
             className="h-52 w-72  max-sm:hidden"
-            src="/src/assets/lace.png"
             alt="decorative image"
           />
         </div>

@@ -88,7 +88,7 @@ const Home = () => {
         <div>
         <p className="py-2 font-normal">{t('home.faq')}</p>
           <p>{t('home.faq_text')}</p>
-          <img className="w-72 " src="src/assets/Man thinking in the office.png" alt="decorative image" />
+          <img className="w-72 " src="/images/Man thinking in the office.png" alt="decorative image" />
         </div>
         <div className="App p-4 w-[90%] sm:w-[55%]">
           <div className="border rounded-lg mb-5 ">

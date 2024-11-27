@@ -25,8 +25,8 @@
     "subtopic": "We are a group of young experts who are eager to provide excellent products to businesses worldwide. We have expertise in a variety of fields, including ed tech, e-commerce, affiliate marketing, and SEO-driven development. Our software products portfolio consists of several projects using cutting-edge technology.",
     "Visit_website": "Visit site",
     "timefund": {
-      "title": "TimeFund",
-      "description": "Timefund is a fundraising website and mobile app that helps people and organizations to collect funds or aids from donors."
+      "title": "Crowd Funding",
+      "description": "We have built a fundraising website and mobile app that helps people and organizations to collect funds or aids from donors."
     },
     "sitota": {
       "title": "Sitota",
@@ -40,6 +40,9 @@
     },"Financial":{
       "title":"Financial Technology",
       "description":"Built a financial technology solution that simplifies digital transactions, enhances payment security, and supports seamless fund transfers, prioritizing user experience and compliance with regulatory standards"
+    },"on_demand":{
+      "title":"On-Demand Technologies",
+      "description":"We developed on-demand solutions tailored to client requirements, enhancing scalability, user accessibility, and functionality across industries with a focus on delivering seamless, reliable, and efficient digital experiences."
     }
   },"about":{
     "1":"Your Trusted ",
@@ -78,7 +81,7 @@
 
   },
   "footer":{
-    "time_software":"Time Sofware PLC",
+    "time_software":"Time Software PLC",
     "header2":"Time Software is a managed services provider (MSP) or a Full-Stack IT solutions company that provides end-to-end technology services for businesses across industries.",
     "pages":"PAGES",
     "services":"SERVICES", 

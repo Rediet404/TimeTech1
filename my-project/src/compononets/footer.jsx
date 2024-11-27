@@ -11,10 +11,10 @@ const { t } = useTranslation();
         {/* Company Info Section */}
         <div className="text-white w-full lg:w-80 rounded-xl p-2 px-6   mb-4 lg:mb-0" style={{ background: "#776DF2" }}>
           <div className="flex justify-end">
-            <img className="w-24" src="src/assets/Logo_large.png" alt="logo" />
+            <img className="w-24" src="/images/Logo_large.png" alt="logo" />
           </div>
           <div className="flex items-center">
-            <img src="src/assets/Logo_large.png" className="w-8 h-8 m-2" alt="logo" />
+            <img src="/images/Logo_large.png" className="w-8 h-8 m-2" alt="logo" />
             <p className="text-sm font-medium">{t('footer.time_software')}</p>
           </div>
           <p className="text-xs p-2 font-medium">
