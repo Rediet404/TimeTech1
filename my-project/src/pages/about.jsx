@@ -27,7 +27,7 @@ const About = () => {
           alt="decorative image"
         />
       </div>
-      <div className="flex sm:justify-around justify-center flex-wrap p-4 rounded-md  ">
+      <div className="flex sm:justify-around justify-center flex-wrap p-4 rounded-md">
         <div className="w-80 h-36 relative mt-48  bg-white bg-opacity-100 z-20  flex  max-w-sm rounded-xl overflow-hidden shadow-lg">
           <div className="bg-purple-50 rounded-full w-14 h-14 p-2 m-5 flex basis-10 justify-center items-center">
             <svg
@@ -118,15 +118,15 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" flex my-14 gap-5 flex-wrap-reverse mx-4 justify-evenly">
-        <div className="flex flex-col justify-evenly gap-5">
+      <div className=" flex my-14 gap-5 flex-wrap-reverse   justify-evenly">
+        <div className="flex  flex-col justify-evenly gap-5">
           <img
             className="h-60"
             src="src\assets\Lettering.png"
             alt="decorative image"
           />
-          <div className="h-60 w-[400px] justify-center flex flex-col">
-            <h1 className="font-semibold py-2 text-lg">{t('about.intro')} </h1>
+          <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
+            <h1 className="font-semibold py-2 text-lg ">{t('about.intro')} </h1>
             <p>
              
               {t('about.intro_detail')}
@@ -137,7 +137,7 @@ const About = () => {
             src="/src/assets/Ai.png"
             alt="decorative image"
           />
-          <div className="h-60 w-[400px] justify-center flex flex-col">
+          <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
             <h1 className="font-semibold py-2 text-lg">{t('about.commitment')} </h1>
             <p>
             {t('about.commitment_detail')} 
@@ -148,7 +148,7 @@ const About = () => {
             src="/src/assets/space.png"
             alt="decorative image"
           />
-          <div className="h-60 w-[400px] justify-center flex flex-col">
+          <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
             <h1 className="font-semibold py-2 text-lg">{t('about.vision')} </h1>
             <p>
             {t('about.vision_detail')}
@@ -209,8 +209,8 @@ const About = () => {
             />
           </svg>
         </div>
-        <div className="flex flex-col flex-wrap gap-5 justify-evenly">
-          <div className="h-60">
+        <div className="flex  flex-col flex-wrap gap-5 justify-evenly">
+          <div className="h-60 max-sm:pl-5">
             <p className="text-start">{t('about.about')} </p>
             <h1 className="font-medium text-5xl">
             {t('about.title1')}<br />
@@ -223,7 +223,7 @@ const About = () => {
             src="/src/assets/Planet.png"
             alt="decorative image"
           />
-          <div className="h-60 w-[400px] justify-center flex flex-col">
+          <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
             <h1 className="font-semibold py-2 text-lg">
             {t('about.evolution')}
             </h1>
@@ -236,14 +236,14 @@ const About = () => {
             src="/src/assets/unlocked.png"
             alt="decorative image"
           />
-          <div className="h-60 w-[400px] justify-center flex flex-col">
+          <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
             <h1 className="font-semibold py-2 text-lg">{t('about.mission')}</h1>
             <p>
             {t('about.mission_detail')}
             </p>
           </div>
           <img
-            className="h-52 w-72"
+            className="h-52 w-72  max-sm:hidden"
             src="/src/assets/lace.png"
             alt="decorative image"
           />
