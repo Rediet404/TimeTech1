@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import Hero from "../compononets/Hero";
 import Workflow from "../compononets/Workflow"
 import { useTranslation } from 'react-i18next';
-
+ 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(null);
   const { t } = useTranslation();
