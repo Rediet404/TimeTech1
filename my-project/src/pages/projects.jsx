@@ -17,8 +17,8 @@ const Projects = () => {
       title:t('projects.school_erp.title'),
       description:t('projects.school_erp.description'),
       link: "#",
-      imgSrc: "/images/Percentage.png",
-      bgColor: "bg-[#D6260A]", // Custom background color for schoolerp
+      imgSrc: "/images/school_logo.png",
+      bgColor: "bg-[#EEB600]", // Custom background color for schoolerp
     },
      {
       id: 3,
@@ -26,7 +26,7 @@ const Projects = () => {
       title:t('projects.timefund.title'),
       description:t('projects.timefund.description'),
       link: "#",
-      imgSrc: "/images/timefund.png",
+      imgSrc: "/images/time_project.png",
       bgColor: "bg-project1", // Custom background color for TimeFund
     },
     {
@@ -35,7 +35,7 @@ const Projects = () => {
       title: t('projects.sitota.title'),
       description:t('projects.sitota.description'),
       link: "#",
-      imgSrc: "/images/sitota.png",
+      imgSrc: "/images/sitota_logo.png",
       bgColor: "bg-project2", // Custom background color for Sitota
     },{
       id: 5,
@@ -43,8 +43,16 @@ const Projects = () => {
       title:t('projects.Financial.title'),
       description:t('projects.Financial.description'),
       link: "#",
-      imgSrc: "/images/time_pay_logo_1.png",
-      bgColor: "bg-[#0184F7]", // Custom background color for Sitota
+      imgSrc: "/images/time_pay.png",
+      bgColor: "bg-[#0079EA]", // Custom background color for Sitota
+    },{
+      id: 6,
+      number: "06.",
+      title:t('projects.on_demand.title'),
+      description:t('projects.on_demand.description'),
+      link: "#",
+      imgSrc: "/images/on_Demand.png",
+      bgColor: "bg-[#310F67]", // Custom background color for Sitota
     },
   ];
   

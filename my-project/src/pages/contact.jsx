@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
    
     <div className="flex flex-wrap items-center flex-col">
-    <img className="sm:w-72 sm:h-72 w-28" src="src/assets/Logo.white.png" alt="logo" />
+    <img className="sm:w-72 sm:h-72 w-28" src="/images/Logo.white.png" alt="logo" />
     <div className="flex justify-around flex-wrap  items-start gap-4 m-5">
     <div>
     <div className="flex items-start gap-4 p-2 ">
