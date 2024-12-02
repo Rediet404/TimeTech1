@@ -101,7 +101,7 @@ const Home = () => {
               
             </div>
             {isOpen === 1 && (
-              <div className="p-4">
+              <div className="text-wrap p-4 px-8">
                 <p>{t('home.faq_data1_description')}</p>
               </div>
             )}
@@ -116,7 +116,7 @@ const Home = () => {
               <h3 className="font-medium text-center">{t('home.faq_data2_title')}</h3>
             </div>
             {isOpen === 2 && (
-              <div className="p-4">
+              <div className="text-wrap p-4 px-8">
                 <p>{t('home.faq_data2_description')}</p>
               </div>
             )}
@@ -131,7 +131,7 @@ const Home = () => {
               <h3 className="font-medium text-center">{t('home.faq_data3_title')}</h3>
             </div>
             {isOpen === 3 && (
-              <div className="p-4">
+              <div className="text-wrap p-4 px-8">
                 <p>{t('home.faq_data3_description')}</p>
               </div>
             )}
@@ -146,8 +146,38 @@ const Home = () => {
               
             </div>
             {isOpen === 4 && (
-              <div className="p-4">
+              <div className="text-wrap p-4 px-8">
                 <p>{t('home.faq_data4_description')}</p>
+              </div>
+            )}
+          </div>
+          <div className="border rounded-lg mb-5">
+            <div
+              className="flex gap-8 p-4 cursor-pointer"
+              onClick={() => toggleAccordion(5)}
+            >
+              <span>{isOpen === 5 ? minus : plus}</span>
+              <h3 className="font-medium text-center ">{t('home.faq_data5_title')}</h3>
+              
+            </div>
+            {isOpen === 5 && (
+              <div className="text-wrap p-4 px-8">
+                <p>{t('home.faq_data5_description')}</p>
+              </div>
+            )}
+          </div>
+          <div className="border rounded-lg mb-5">
+            <div
+              className="flex gap-8 p-4 cursor-pointer"
+              onClick={() => toggleAccordion(6)}
+            >
+              <span>{isOpen === 6 ? minus : plus}</span>
+              <h3 className="font-medium text-center ">{t('home.faq_data6_title')}</h3>
+              
+            </div>
+            {isOpen === 6 && (
+              <div className="text-wrap p-4 px-8">
+                <p>{t('home.faq_data6_description')}</p>
               </div>
             )}
           </div>

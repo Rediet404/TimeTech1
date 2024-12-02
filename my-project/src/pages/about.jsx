@@ -125,7 +125,7 @@ const About = () => {
             src="/images\Lettering.png"
             alt="decorative image"
           />
-          <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
+          <div className="h-60 w-[400px] justify-center max-sm:w-[350px] max-sm:px-4 flex flex-col">
             <h1 className="font-semibold py-2 text-lg ">{t('about.intro')} </h1>
             <p>
              
@@ -137,7 +137,7 @@ const About = () => {
             src="/images/Ai.png"
             alt="decorative image"
           />
-          <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
+          <div className="h-60 w-[400px] justify-center max-sm:w-[350px] max-sm:px-4 flex flex-col">
             <h1 className="font-semibold py-2 text-lg">{t('about.commitment')} </h1>
             <p>
             {t('about.commitment_detail')} 
@@ -148,7 +148,7 @@ const About = () => {
             src="/images/space.png"
             alt="decorative image"
           />
-          <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
+          <div className="h-60 w-[400px] justify-center max-sm:w-[350px] max-sm:px-4 flex flex-col">
             <h1 className="font-semibold py-2 text-lg">{t('about.vision')} </h1>
             <p>
             {t('about.vision_detail')}
@@ -223,7 +223,7 @@ const About = () => {
             src="/images/Planet.png"
             alt="decorative image"
           />
-          <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
+          <div className="h-60 w-[400px] justify-center max-sm:w-[350px] max-sm:px-4 flex flex-col">
             <h1 className="font-semibold py-2 text-lg">
             {t('about.evolution')}
             </h1>
@@ -236,7 +236,7 @@ const About = () => {
             src="/images/unlocked.png"
             alt="decorative image"
           />
-          <div className="h-60 w-[400px] justify-center max-sm:px-8 flex flex-col">
+          <div className="h-60 w-[400px] justify-center max-sm:w-[350px] max-sm:px-4 flex flex-col">
             <h1 className="font-semibold py-2 text-lg">{t('about.mission')}</h1>
             <p>
             {t('about.mission_detail')}

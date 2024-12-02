@@ -1,68 +1,65 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Partners = () => {
   const [position, setPosition] = useState(0);
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
   const items = [
     { src: '/images/bishoftu.png', alt: 'partner logo' },
     { src: '/images/telebirr-logo.png', alt: 'partner logo' },
     { src: '/images/elbethel.png', alt: 'partner logo' },
     { src: '/images/mald.png', alt: 'partner logo' },
-    
   ];
 
-  const itemWidth = window.innerWidth / 4;
+  const itemWidth = window.innerWidth / 3;
+  const totalItems = items.length;
+  
+  const clonedItems = [items[totalItems - 1], ...items, items[0]];
 
-  const handleNext = () => {
-    if (position <= -(itemWidth * (items.length - 4))) {
-      setPosition(0); 
-    } else {
-      setPosition(position - itemWidth); 
-    }
-  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsTransitioning(true);
+      setPosition((prevPosition) => prevPosition - itemWidth);
+    }, 2000); 
 
-  const handlePrev = () => {
-    if (position === 0) {
-      setPosition(-(itemWidth * (items.length - 4))); 
-    } else {
-      setPosition(position + itemWidth); 
+    return () => clearInterval(interval);
+  }, [itemWidth]);
+
+  
+  useEffect(() => {
+    if (position <= -itemWidth * (totalItems + 1)) {
+      setTimeout(() => {
+        setIsTransitioning(false);
+        setPosition(-itemWidth); 
+      }, 500); 
+    } else if (position === 0) {
+      setTimeout(() => {
+        setIsTransitioning(false);
+        setPosition(-itemWidth * totalItems); 
+      }, 1);
     }
-  };
+  }, [position, totalItems, itemWidth]);
 
   return (
     <div className="relative">
-      <button 
-        onClick={handlePrev} 
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-300 p-2 rounded-full"
-      >
-        ‹
-      </button>
-
       <div className="overflow-hidden w-full">
-        <div 
-          className="flex transition-transform duration-300"
+        <div
+          className={`flex ${isTransitioning ? 'transition-transform duration-500 ease-in-out' : ''}`}
           style={{ transform: `translateX(${position}px)` }}
         >
-          {items.map((item, index) => (
+          {clonedItems.map((item, index) => (
             <div key={index} className="flex-shrink-0" style={{ width: itemWidth }}>
               <div className="overflow-hidden">
-                <img 
-                  src={item.src} 
-                  alt={item.alt} 
-                  className="w-full h-[100px] object-contain "
+                <img
+                  src={item.src}
+                  alt={item.alt}
+                  className="w-full h-[100px] object-contain"
                 />
               </div>
             </div>
           ))}
         </div>
       </div>
-
-      <button 
-        onClick={handleNext} 
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-300 p-2 rounded-full"
-      >
-        ›
-      </button>
     </div>
   );
 };
