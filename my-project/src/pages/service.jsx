@@ -150,7 +150,7 @@ const Service = () => {
 
           {/* Card 6 */}
           <div className="bg-white w-80 h-fit pb-6 max-w-sm rounded-xl overflow-hidden shadow-lg"  >
-            <img src="../assets/Risk management and controlling threats.png" alt="decorative image" />
+            <img src="/images/Risk management and controlling threats.png" alt="decorative image" />
             <div className="px-6 pt-4">
               <h1 className="font-semibold text-center ml-4 text-xl mb-2 ">{t('service.services_data6_title')}</h1>
               <div className="text-xs  font-medium my-3 ml-4">
