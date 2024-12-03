@@ -143,14 +143,19 @@
     "more_services": "See more services",
     "faq": "FAQ",
     "faq_text": "Answers to your questions",
-    "faq_data1_title": "Do you offer flexible payment options?",
-    "faq_data1_description":"This is the content of Accordion 1.",
-    "faq_data2_title": "What services do you offer?",
-    "faq_data2_description":"This is the content of Accordion 2.",
-    "faq_data3_title": "How long does it take to build an MVP?",
-    "faq_data3_description":"This is the content of Accordion 3.",
-    "faq_data4_title": "How can I request a quote for your service?",
-    "faq_data4_description":"This is the content of Accordion 4."
+    "faq_data1_title": "What does Time Software PLC specialize in?",
+    "faq_data1_description":"We specialize in providing innovative software solutions tailored to meet the unique needs of businesses, including enterprise resource planning (ERP), project management tools, and custom software development.",
+    "faq_data2_title": " Where is your company located?",
+    "faq_data2_description":"Our headquarters is located in James Building 5th floor at Meskel Flower, Addis Ababa, Ethiopia, but we serve clients globally through our online and on-site services.",
+    "faq_data3_title": "What industries do you serve?",
+    "faq_data3_description":"We work with a wide range of industries, including schools, retail, manufacturing, finance, healthcare, government and logistics.",
+    "faq_data4_title": "What services do you offer?",
+    "faq_data4_description":" • Software development • IT consulting • System integration • Maintenance and support • Data analytics solutions",
+    "faq_data5_title": "Can you customize software for my business?",
+    "faq_data5_description":"Yes! We specialize in developing tailor-made software solutions to fit your business’s specific requirements.",
+    "faq_data6_title": " Do you offer cloud-based solutions?",
+    "faq_data6_description":"Yes, our solutions are cloud-compatible, ensuring flexibility, security, and scalability for your business operations."
+    
     
   },
   "service":{
