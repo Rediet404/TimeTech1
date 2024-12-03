@@ -6,15 +6,14 @@ const TeamSection = () => {
     const teamMembers = [
   { name: t('about.team_1'), 
     title: t('about.team_1_title'), 
-    img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
-  { name: "Daniel Tesfayesus",
-    title: "General Manager", 
-    img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
-  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
-  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
-  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
-  { name: "Daniel Tesfayesus", title: "General Manager", img: "https://img.favpng.com/6/14/2/account-icon-avatar-icon-man-icon-png-favpng-d9YxzGw3UPA07dE7sAQyMSiNk.jpg" },
-];
+    img: "/images/Daniel Tesfayesus.png" },
+  { name: "Berhanu Sahle",
+    title: "Program Office Director", 
+    img: "/images/Berhanu Sahle.jpg" },
+  { name: "Tekalign Melese", title: "Innovation Director", img: "/images/Tekalign Melese.png" },
+  { name: "Ashenafi Wube", title: "Development Division Manager", img: "images/Ashenafi Wube.png" },
+  { name: "Anteneh Woldesilase", title: "Support Division Manager", img: "images/Anteneh Woldesilase.png" }
+  ];
  return (
     <section className="py-16 px-4 text-left w-10/12 mx-auto">
       <div className="text-justify">  
@@ -24,21 +23,27 @@ const TeamSection = () => {
       </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {teamMembers.map((member, index) => (
-          <div
-            key={index}
-            className="bg-white p-6 rounded-lg shadow-md text-center"
-          >
-            <img
-              src={member.img}
-              alt={member.name}
-              className="w-full h-48 object-cover rounded-md mb-4"
-            />
-            <h3 className="text-lg font-semibold">{member.name}</h3>
-            <p className="text-black">{member.title}</p>
-          </div>
-        ))}
+  {teamMembers.map((member, index) => (
+    <div
+      key={index}
+      className="bg-white p-6 rounded-lg shadow-md text-center"
+    >
+      <div className="relative w-40 h-40 mx-auto mb-4">
+        {/* Circular Image */}
+        <img
+          src={member.img}
+          alt={member.name}
+          className="w-full h-full object-cover rounded-full border-4 shadow-violet-400 shadow-md"
+        />
+        {/* Decorative Outer Glow */}
+        <div className="absolute inset-0 rounded-full border-4 border-blue-300 opacity-30 blur-lg"></div>
       </div>
+      <h3 className="text-lg font-semibold">{member.name}</h3>
+      <p className="text-black">{member.title}</p>
+    </div>
+  ))}
+</div>
+
     </section>
   );
 };
