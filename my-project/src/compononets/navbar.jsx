@@ -83,9 +83,7 @@ const Navbar = () => {
               {t('navbar.contact_us')}
             </Link>
             {/* Language toggle for mobile view */}
-            <button onClick={() => { toggleLanguage(); setIsOpen(false); }} className="text-gray-600">
-              {i18n.language === 'en' ? 'Amharic' : 'English'}
-            </button>
+            
           </div>
         )}
       </nav>
