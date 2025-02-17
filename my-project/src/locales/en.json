@@ -77,8 +77,14 @@
     "team_detail":"Meet our dedicated team of innovators and creatives. With diverse expertise and open communication, we thrive on collaboration. Each member contributes unique skills, fostering a dynamic and forward-thinking environment. we are a dedicated, bright, and creative team.",
     "team_1":"Daniel Tesfayesus",
     "team_1_title":"General Manager",
-    "":""
-
+    "team_2":"Berhanu Sahle",
+    "team_2_title":"Program Office Director",
+    "team_3":"Tekalign Melese",
+    "team_3_title":"Innovation Director",
+    "team_4":"Ashenafi Wube",
+    "team_4_title":"Development Division Manager",
+    "team_5":"Anteneh Woldesilase",
+    "team_5_title":"Support Division Manager"
   },
   "footer":{
     "time_software":"Time Software PLC",
@@ -94,6 +100,27 @@
       "6":"Tech Assisted Property Management"
     }
 
+  },
+  "support":{
+    "1": "Support Page",
+    "2": "Experiencing problems with one of our products? Don't worry, describe the issues you are facing and our support team will get back to you.",
+    "3": "How can we help?",
+    "first_name": "first name",
+    "last_name": "last name",
+    "email": "email",
+    "Type":"Product Type",
+    "timefund":"timefund",
+    "sitota":"sitota",
+    "SMS":"SMS service",
+    "Property Management":"Property Management",
+    "subject": "subject",
+    "your_message": "Describe the problem you are experiencing",
+    "send": "send",
+    "drag":"Drag & drop files or",
+    "browse":"Browse",
+    "Supported formats: JPEG, PNG, GIF, MP4, PDF, PSD, AI, Word, PPT":"Supported formats: JPEG, PNG, GIF, MP4, PDF, PSD, AI, Word, PPT",
+    "No files uploaded yet.":"No files uploaded yet.",
+    "Thank you! We will fix it and get back to you shortly":"Thank you! We will fix it and get back to you shortly"
   },
   "info_card":{
     "1":"Ready to transform ",
