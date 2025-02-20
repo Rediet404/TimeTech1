@@ -54,7 +54,7 @@ const Navbar = () => {
             <Link to="/service" className={getLinkClasses("/service")}>{t('navbar.services')}</Link>
             <Link to="/projects" className={getLinkClasses("/projects")}>{t('navbar.projects')}</Link>
             <Link to="/contact" className={getLinkClasses("/contact")}>{t('navbar.contact_us')}</Link>
-            <Link to="/support" className={getLinkClasses("/support")}>Support</Link>
+            <Link to="/support" className={getLinkClasses("/support")}>{t('navbar.support')}</Link>
           </div>
 
           {/* Language option */}
