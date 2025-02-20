@@ -4,7 +4,8 @@
     "about_us": "ስለ እኛ",
     "services": "አገልግሎቶች",
     "projects": "ፕሮጀክቶች",
-    "contact_us": "አግኙን"
+    "contact_us": "አግኙን",
+    "support": "ድጋፍ"
   },
   "contact": {
     "1": "ትልቅ ነገር አብረን እንገንባ",
@@ -109,6 +110,7 @@
     "email": "ኢሜይል",
     "Type":"የምርት ዓይነት",
     "timefund":"timefund",
+    "phone":"ስልክ ቁጥር",
     "sitota":"sitota",
     "SMS":"SMS service",
     "Property Management":"Property Management",

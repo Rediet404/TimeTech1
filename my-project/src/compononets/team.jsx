@@ -7,12 +7,15 @@ const TeamSection = () => {
   { name: t('about.team_1'), 
     title: t('about.team_1_title'), 
     img: "/images/Daniel Tesfayesus.png" },
-  { name: "Berhanu Sahle",
-    title: "Program Office Director", 
+  { name: t('about.team_2'), 
+    title: t('about.team_2_title'), 
     img: "/images/Berhanu Sahle.jpg" },
-  { name: "Tekalign Melese", title: "Innovation Director", img: "/images/Tekalign Melese.png" },
-  { name: "Ashenafi Wube", title: "Development Division Manager", img: "images/Ashenafi Wube.png" },
-  { name: "Anteneh Woldesilase", title: "Support Division Manager", img: "images/Anteneh Woldesilase.png" }
+  { name: t('about.team_3'), 
+    title: t('about.team_3_title'), img: "/images/Tekalign Melese.png" },
+  { name: t('about.team_4'), 
+    title: t('about.team_4_title'), img: "images/Ashenafi Wube.png" },
+  { name: t('about.team_5'), 
+    title: t('about.team_5_title'), img: "images/Anteneh Woldesilase.png" }
   ];
  return (
     <section className="py-16 px-4 text-left w-10/12 mx-auto">

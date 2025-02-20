@@ -81,10 +81,10 @@ const Support = () => {
     e.preventDefault();
     if (validateForm()) {
       try {
-        // Add your API call here
+       
         console.log('Form submitted:', formData);
-        setIsSubmitted(true); // Set isSubmitted to true on successful submission
-        // Reset form after successful submission
+        setIsSubmitted(true); 
+       
         setFormData({
           firstName: '',
           lastName: '',
@@ -168,7 +168,7 @@ const Support = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  placeholder='Email'
+                  placeholder={t('contact.email')} 
                 />
                 {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
               </div>
@@ -180,7 +180,7 @@ const Support = () => {
                   name="phoneNumber"
                   value={formData.phoneNumber}
                   onChange={handleInputChange}
-                  placeholder='Phone number'
+                  placeholder={t('support.phone')} 
                 />
                 {errors.phoneNumber && <p className="text-red-500 text-sm mt-1">{errors.phoneNumber}</p>}
               </div>
@@ -192,7 +192,7 @@ const Support = () => {
                   value={formData.product}
                   onChange={handleInputChange}
                 >
-                  <option value="" disabled className="text-gray-400">Product Type</option>
+                  <option value="" disabled className="text-gray-400">{t('support.Type')}</option>
                   <option value="time_fund" className="text-black">Time Fund</option>
                   <option value="sitota" className="text-black">Sitota</option>
                   <option value="sms_service" className="text-black">SMS Service</option>
@@ -225,7 +225,7 @@ const Support = () => {
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
-                  placeholder='Describe the problem you are experiencing'
+                  placeholder={t('support.your_message')}
                 />
                 {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
               </div>
