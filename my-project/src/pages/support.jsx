@@ -109,13 +109,13 @@ const Support = () => {
       <>
         <div className="flex pt-20 flex-col font-inter items-center mx-auto w-[90%] max-sm:w-[95%] h-fit mb-[35%] max-sm:mb-[115%]">
           <div className="h-screen flex flex-col items-center">           
-            <h1 className="font-semibold text-3xl my-5">t('support.1') </h1>
-            <p className="mb-8">t('support.2')</p>
+            <h1 className="font-semibold text-3xl my-5">{t('support.1')} </h1>
+            <p className="mb-8">{t('support.2')}</p>
             
             <div className="rounded-md bg-[#F8F8F8] sm:w-[80%] w-[100%] h-fit py-10">
               <div className='text-center my-56'>
                 <h3 className="text font-bold text-xl">
-                t('support.3')
+                {t('support.3')}
                 </h3>  
               </div> 
             </div>
