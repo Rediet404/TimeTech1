@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
+
 import axios from "axios";
-import Ticket from "../types/index"; 
 
 const API_URL = "http://localhost:4000/tickets";
 
