@@ -121,7 +121,9 @@
    "browse":"አስስ",
    "Supported formats: JPEG, PNG, GIF, MP4, PDF, PSD, AI, Word, PPT":"የሚደገፉ ቅርጸቶች፡ JPEG፣ PNG፣ GIF፣ MP4፣ PDF፣ PSD፣ AI፣ Word፣ PPT",
    "No files uploaded yet.":"እስካሁን ምንም ፋይሎች አልገቡም።",
-   "Thank you! We will fix it and get back to you shortly":"እናመሰግናለን! አስተካክላለን በቅርቡ ወደ እርስዎ እንመለሳለን።"
+   "Thank you!":"እናመሰግናለን! ",
+   "thankyou2":" አስተካክላለን በቅርቡ ወደ እርስዎ እንመለሳለን።",    
+    "Submit Another":"ሌላ ያስገቡ።"
   },
   "info_card": {
   "1": "የ ኩባንያዎን ቢዝነስ ",

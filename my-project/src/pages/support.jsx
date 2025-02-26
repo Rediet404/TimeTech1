@@ -145,10 +145,10 @@ const Support = () => {
           <div className="rounded-md bg-[#F8F8F8] sm:w-[80%] w-[100%] h-fit py-10">
             {isSubmitted ? (
               <div className="text-center my-56">
-                <h3 className="text-2xl font-bold mb-4">Your support request has been successfully submitted.</h3>
-                <p className="text-lg mb-8">Thank you for reaching out! </p>
+                <h3 className="text-2xl font-bold mb-4">{t("support.Thank you!")}</h3>
+                <p className="text-lg mb-8">{t("support.thankyou2")} </p>
                 <button onClick={() => setIsSubmitted(false)} className="bg-black rounded-xl text-white px-6 py-2">
-                  Submit Another
+                {t("support.Submit Another")}
                 </button>
               </div>
             ) : (

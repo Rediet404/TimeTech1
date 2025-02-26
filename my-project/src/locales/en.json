@@ -122,7 +122,9 @@
     "browse":"Browse",
     "Supported formats: JPEG, PNG, GIF, MP4, PDF, PSD, AI, Word, PPT":"Supported formats: JPEG, PNG, GIF, MP4, PDF, PSD, AI, Word, PPT",
     "No files uploaded yet.":"No files uploaded yet.",
-    "Thank you! We will fix it and get back to you shortly":"Thank you! We will fix it and get back to you shortly"
+    "thankyou2":" We will fix it and get back to you shortly",
+    "Thank you":"Thank you!",
+    "Submit Another":"Submit Another"
   },
   "info_card":{
     "1":"Ready to transform ",
